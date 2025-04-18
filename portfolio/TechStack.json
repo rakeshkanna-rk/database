@@ -37,7 +37,7 @@
     },
     {
         "name": "Figma",
-        "img": "././icons/techstack/figma.svg"
+        "img": "./icons/techstack/figma.svg"
     },
     {
         "name" : "Canva",
