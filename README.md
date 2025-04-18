@@ -11,9 +11,11 @@ You can use raw file links to dynamically fetch data in your Vue or JavaScript a
 Example:
 
 ```js
-fetch("https://raw.githubusercontent.com/<username>/database/main/portfolio/headLines.json")
-  .then(res => res.json())
-  .then(data => console.log(data));
+fetch(
+  "https://raw.githubusercontent.com/<username>/database/main/portfolio/headLines.json"
+)
+  .then((res) => res.json())
+  .then((data) => console.log(data));
 ```
 
 ---
@@ -22,12 +24,25 @@ fetch("https://raw.githubusercontent.com/<username>/database/main/portfolio/head
 
 ```js
 const res = await fetch(
-  "https://raw.githubusercontent.com/rakeshkanna-rk/database/main/portfolio/projects.json"
+  "https://rakeshkanna-rk.github.io/database/portfolio/projects.json"
 );
 const projects = await res.json();
 ```
 
 You can then pass the data to components or display it directly.
+
+## Database
+
+### Portfolio Links
+
+- [Projects Code](https://rakeshkanna-rk.github.io/database/portfolio/codeProjects.json)
+- [Projects Design](https://rakeshkanna-rk.github.io/database/portfolio/designProjects.json)
+- [Projects Home](https://rakeshkanna-rk.github.io/database/portfolio/homeProjects.json)
+- [Head Lines](https://rakeshkanna-rk.github.io/database/portfolio/headLines.json)
+- [Timeline](https://rakeshkanna-rk.github.io/database/portfolio/timeline.json)
+- [Tech Stack](https://rakeshkanna-rk.github.io/database/portfolio/TechStack.json)
+- [Links](https://rakeshkanna-rk.github.io/database/portfolio/links.json)
+- [Project Imgs](https://rakeshkanna-rk.github.io/database/portfolio/projimgs.json)
 
 ---
 
@@ -50,4 +65,7 @@ You can then pass the data to components or display it directly.
 ## 📜 License
 
 MIT — use freely for personal or commercial use.
+
+```
+
 ```
