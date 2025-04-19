@@ -15,6 +15,11 @@
     "img": "./assets/links/behance.svg"
   },
   {
+    "link" : "https://medium.com/@rakeshkanna0108",
+    "title": "Medium",
+    "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/medium.svg"
+  },
+  {
     "link":"https://www.instagram.com/rk01.designs/",
     "title": "Instagram (Designs)",
     "img": "./assets/links/instagram.svg"
