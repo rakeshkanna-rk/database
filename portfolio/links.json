@@ -2,43 +2,43 @@
   {
     "link": "https://www.linkedin.com/in/rakeshkannas/",
     "title": "linkedin",
-    "img": "./assets/links/linkedin.svg"
+    "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/links/linkedin.svg"
   },
   {
     "link": "https://github.com/rakeshkanna-rk",
     "title": "Github",
-    "img": "./assets/links/github.svg"
+    "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/links/github.svg"
   },
   {
     "link": "https://behance.net/rakesh_kanna",
     "title": "Behance",
-    "img": "./assets/links/behance.svg"
+    "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/links/behance.svg"
   },
   {
     "link" : "https://medium.com/@rakeshkanna0108",
     "title": "Medium",
-    "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/medium.svg"
+    "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/links/medium.svg"
   },
   {
     "link":"https://www.instagram.com/rk01.designs/",
     "title": "Instagram (Designs)",
-    "img": "./assets/links/instagram.svg"
+    "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/links/instagram.svg"
   },
   {
     "link": "https://www.instagram.com/rk01.codes/",
     "title": "Instagram (Codes)",
-    "img": "./assets/links/instagram.svg"
+    "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/links/instagram.svg"
   },
   {
     "link": "/download/Rakesh_Resume.pdf",
     "title": "Resume",
-    "img": "./assets/links/resume.svg",
+    "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/links/resume.svg",
     "external": false
   },
   {
     "link": "/freebies",
     "title": "Freebies",
-    "img": "./assets/links/gift.svg",
+    "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/links/gift.svg",
     "external": false
   }
 ]

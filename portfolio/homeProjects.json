@@ -1,7 +1,7 @@
 [
   {
     "title": "Education Center",
-    "img": "./assets/projects/educenter.png",
+    "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/projects/educenter.png",
     "link": "https://www.behance.net/gallery/178610739/Education-Center-A-Learning-app-Case-study",
     "desc": [
       "A mobile-first learning app UI focused on simplicity and engagement.",
@@ -13,7 +13,7 @@
   },
   {
     "title": "Travel Guy",
-    "img": "./assets/projects/travelguy.png",
+    "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/projects/travelguy.png",
     "link": "https://www.behance.net/gallery/188872021/Travel-Guy-Tourism-Website-Landing-Page-Design",
     "desc": [
       "Landing page concept for a modern travel and tourism website.",
@@ -25,7 +25,7 @@
   },
   {
     "title": "Instagram for Vision Pro",
-    "img": "./assets/projects/visionpro.png",
+    "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/projects/visionpro.png",
     "link": "https://www.behance.net/gallery/178698351/Apple-Vision-Pro-Instagram-UI",
     "desc": [
       "Concept UI for Instagram on Apple Vision Pro.",
@@ -37,7 +37,7 @@
   },
   {
     "title": "EzyDB",
-    "img": "./assets/projects/ezydb.png",
+    "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/projects/ezydb.png",
     "link": "https:github.com/EzyCode/EzyDB",
     "desc": [
       "A lightweight, file-based NoSQL database system built with Python.",
@@ -49,7 +49,7 @@
   },
   {
     "title": "DarkEST",
-    "img": "./assets/projects/darkest.png",
+    "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/projects/darkest.png",
     "link": "https:github.com/rakeshkanna-rk/DarkEST",
     "desc": [
       "A visually soothing dark theme for Visual Studio Code.",
@@ -61,7 +61,7 @@
   },
   {
     "title": "Pip Creator",
-    "img": "./assets/projects/pipcreator.png",
+    "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/projects/pipcreator.png",
     "link": "https://github.com/rakeshkanna-rk/PipCreator",
     "desc": [
       "CLI tool to help developers quickly generate and publish Python packages.",
@@ -73,7 +73,7 @@
   },
   {
     "title": "Markdown Editor",
-    "img": "./assets/projects/markdowneditor.png",
+    "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/projects/markdowneditor.png",
     "link": "https://github.com/rakeshkanna-rk/Markdown-Editor",
     "web": "https://rakeshkanna-rk.github.io/Markdown-Editor/",
     "desc": [
