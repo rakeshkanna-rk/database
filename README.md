@@ -38,11 +38,9 @@ You can then pass the data to components or display it directly.
 - [Projects Code](https://rakeshkanna-rk.github.io/database/portfolio/codeProjects.json)
 - [Projects Design](https://rakeshkanna-rk.github.io/database/portfolio/designProjects.json)
 - [Projects Home](https://rakeshkanna-rk.github.io/database/portfolio/homeProjects.json)
-- [Head Lines](https://rakeshkanna-rk.github.io/database/portfolio/headLines.json)
 - [Timeline](https://rakeshkanna-rk.github.io/database/portfolio/timeline.json)
 - [Tech Stack](https://rakeshkanna-rk.github.io/database/portfolio/TechStack.json)
 - [Links](https://rakeshkanna-rk.github.io/database/portfolio/links.json)
-- [Project Imgs](https://rakeshkanna-rk.github.io/database/portfolio/projimgs.json)
 
 ---
 
