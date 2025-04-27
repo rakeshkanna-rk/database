@@ -3,5 +3,11 @@
         "link": "https://raw.githubusercontent.com/rakeshkanna-rk/Glass-Icons/refs/heads/main/GlassIconsOnly.zip",
         "title": "Glass Morphism Icons",
         "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/freebies/glassicons.svg"
+    },
+    {
+        "link": "/download/Boxer-Regular.zip",
+        "title": "Boxer Font - Regular",
+        "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/freebies/boxer.svg",
+        "external": false
     }
 ]
