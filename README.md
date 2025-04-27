@@ -41,6 +41,7 @@ You can then pass the data to components or display it directly.
 - [Timeline](https://rakeshkanna-rk.github.io/database/portfolio/timeline.json)
 - [Tech Stack](https://rakeshkanna-rk.github.io/database/portfolio/TechStack.json)
 - [Links](https://rakeshkanna-rk.github.io/database/portfolio/links.json)
+- [Freebies](https://rakeshkanna-rk.github.io/database/portfolio/freebies.json)
 
 ---
 
