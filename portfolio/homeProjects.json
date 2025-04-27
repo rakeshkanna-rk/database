@@ -38,7 +38,7 @@
   {
     "title": "EzyDB",
     "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/projects/ezydb.png",
-    "link": "https:github.com/EzyCode/EzyDB",
+    "link": "https://github.com/ezycode-org/EzyDB",
     "desc": [
       "A lightweight, file-based NoSQL database system built with Python.",
       "Designed for developers who need quick and easy data storage without server setup.",
@@ -50,7 +50,7 @@
   {
     "title": "DarkEST",
     "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/projects/darkest.png",
-    "link": "https:github.com/rakeshkanna-rk/DarkEST",
+    "link": "https://github.com/rakeshkanna-rk/darkest",
     "desc": [
       "A visually soothing dark theme for Visual Studio Code.",
       "Crafted to reduce eye strain during long development sessions.",
@@ -62,7 +62,7 @@
   {
     "title": "Pip Creator",
     "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/projects/pipcreator.png",
-    "link": "https://github.com/rakeshkanna-rk/PipCreator",
+    "link": "https://github.com/rakeshkanna-rk/pipCreator",
     "desc": [
       "CLI tool to help developers quickly generate and publish Python packages.",
       "Automates setup file creation, versioning, and structure generation.",
