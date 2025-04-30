@@ -45,6 +45,10 @@ You can then pass the data to components or display it directly.
 
 ---
 
+### Common
+
+- [Image Placeholder](https://rakeshkanna-rk.github.io/database/portfolio/img/img_placeholder.png)
+
 ## 🔄 Benefits
 
 - Update content without re-deploying your frontend
