@@ -1,5 +1,6 @@
 [
   {
+    "icon": "https://rakeshkanna-rk.github.io/database/portfolio/img/timeline/runverve.svg",
     "title": "Graphics Designer",
     "company": "Runverve",
     "location": "Tamil Nadu, India · Remote",
@@ -10,6 +11,7 @@
     ]
   },
   {
+    "icon": "https://rakeshkanna-rk.github.io/database/portfolio/img/timeline/mrconstrictions.svg",
     "title": "Freelance Designer",
     "company": "M.R. Constructions",
     "location": "Chennai, Tamil Nadu · Remote",
@@ -20,6 +22,7 @@
     ]
   },
   {
+    "icon": "https://rakeshkanna-rk.github.io/database/portfolio/img/timeline/gtech.svg",
     "title": "Graphic Design Lead",
     "company": "G-Tech (College Club)",
     "location": "Chennai, India",
@@ -30,6 +33,7 @@
     ]
   },
   {
+    "icon": "https://rakeshkanna-rk.github.io/database/portfolio/img/timeline/gnc.svg",
     "title": "B.Sc. Computer Science",
     "company": "Guru Nanak College",
     "location": "Chennai, India",
@@ -39,6 +43,7 @@
     ]
   },
   {
+    "icon": "https://rakeshkanna-rk.github.io/database/portfolio/img/timeline/amjs.svg",
     "title": "Higher Secondary Education",
     "company": "Agurchand Manmull Jain School",
     "location": "Chennai, India",
