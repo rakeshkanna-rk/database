@@ -46,6 +46,13 @@ You can then pass the data to components or display it directly.
 
 ---
 
+### YT Learns
+
+- [Topics](https://rakeshkanna-rk.github.io/database/YT-Learns/topics.json)
+- [Frontend](https://rakeshkanna-rk.github.io/database/YT-Learns/topics/frontend.json)
+- [Backend](https://rakeshkanna-rk.github.io/database/YT-Learns/topics/backend.json)
+- [Database](https://rakeshkanna-rk.github.io/database/YT-Learns/topics/database.json)
+
 ### Common
 
 - [Image Placeholder](https://rakeshkanna-rk.github.io/database/img/img_placeholder.png)
