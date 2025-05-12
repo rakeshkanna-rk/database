@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Node.js Crash Course",
+    "description": "Learn how to build backend apps with Node and Express.",
+    "link": "https://www.youtube.com/watch?v=fBNz5xF-Kx4",
+    "tags": ["nodejs", "backend", "express"],
+    "documents": [
+      {
+        "title": "Node.js Docs",
+        "url": "https://nodejs.org/en/docs"
+      }
+    ]
+  },
+  {
+    "title": "Django Tutorial",
+    "description": "Learn Django basics and build a blog app.",
+    "link": "https://www.youtube.com/watch?v=F5mRW0jo-U4",
+    "tags": ["django", "python", "backend"],
+    "documents": [
+      {
+        "title": "Django Docs",
+        "url": "https://docs.djangoproject.com/en/stable/"
+      }
+    ]
+  }
+]

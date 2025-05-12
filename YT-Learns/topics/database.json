@@ -1,0 +1,26 @@
+[
+  {
+    "title": "SQL Tutorial - Full Database Course",
+    "description": "Complete SQL tutorial covering queries, joins, and more.",
+    "link": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+    "tags": ["sql", "database"],
+    "documents": [
+      {
+        "title": "W3Schools SQL",
+        "url": "https://www.w3schools.com/sql/"
+      }
+    ]
+  },
+  {
+    "title": "MongoDB Crash Course",
+    "description": "Learn NoSQL with MongoDB, CRUD, and Mongoose.",
+    "link": "https://www.youtube.com/watch?v=-56x56UppqQ",
+    "tags": ["mongodb", "nosql", "database"],
+    "documents": [
+      {
+        "title": "MongoDB Docs",
+        "url": "https://www.mongodb.com/docs/"
+      }
+    ]
+  }
+]

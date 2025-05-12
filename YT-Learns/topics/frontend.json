@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Vue 3 Crash Course",
+    "description": "Learn Vue 3 basics and Composition API in one video.",
+    "link": "https://www.youtube.com/watch?v=ZqgiuPt5QZo",
+    "tags": ["vue", "frontend", "javascript"],
+    "documents": [
+      {
+        "title": "Vue Docs",
+        "url": "https://vuejs.org/guide/introduction.html"
+      }
+    ]
+  },
+  {
+    "title": "React Tutorial for Beginners",
+    "description": "Complete beginner guide to React.js",
+    "link": "https://www.youtube.com/watch?v=dGcsHMXbSOA",
+    "tags": ["react", "frontend", "javascript"],
+    "documents": [
+      {
+        "title": "React Docs",
+        "url": "https://reactjs.org/docs/getting-started.html"
+      }
+    ]
+  }
+]
