@@ -1,25 +1,221 @@
 [
   {
-    "title": "Node.js Crash Course",
-    "description": "Learn how to build backend apps with Node and Express.",
-    "link": "https://www.youtube.com/watch?v=fBNz5xF-Kx4",
-    "tags": ["nodejs", "backend", "express"],
+    "description": "Python for Beginners - Learn Coding with Python in 1 Hour by Mosh Hamedani.",
+    "link": "http://www.youtube.com/watch?v=kqtD5dpn9C8",
+    "tags": ["python", "backend", "programming", "scripting", "language"],
     "documents": [
       {
-        "title": "Node.js Docs",
-        "url": "https://nodejs.org/en/docs"
+        "title": "Python Docs",
+        "url": "https://docs.python.org/3/"
       }
     ]
   },
   {
-    "title": "Django Tutorial",
-    "description": "Learn Django basics and build a blog app.",
-    "link": "https://www.youtube.com/watch?v=F5mRW0jo-U4",
-    "tags": ["django", "python", "backend"],
+    "description": "Java Tutorial for Beginners by Telusko (12+ hours).",
+    "link": "http://www.youtube.com/watch?v=BGTx91t8q50",
+    "tags": ["java", "backend", "oop", "language"],
     "documents": [
       {
-        "title": "Django Docs",
-        "url": "https://docs.djangoproject.com/en/stable/"
+        "title": "Java Documentation",
+        "url": "https://docs.oracle.com/en/java/"
+      }
+    ]
+  },
+  {
+    "description": "Java Full Course for Beginners by Mosh Hamedani.",
+    "link": "http://www.youtube.com/watch?v=eIrMbAQSU34",
+    "tags": ["java", "backend", "language", "tutorial"],
+    "documents": [
+      {
+        "title": "Java Documentation",
+        "url": "https://docs.oracle.com/en/java/"
+      }
+    ]
+  },
+  {
+    "description": "Node.js Tutorial for Beginners by Mosh Hamedani.",
+    "link": "http://www.youtube.com/watch?v=TlB_eWDSMt4",
+    "tags": ["nodejs", "backend", "javascript", "server"],
+    "documents": [
+      {
+        "title": "Node.js Docs",
+        "url": "https://nodejs.org/en/docs/"
+      }
+    ]
+  },
+  {
+    "description": "PHP Full Course for non-haters 🐘 by Bro Code.",
+    "link": "http://www.youtube.com/watch?v=zZ6vybT1HQs",
+    "tags": ["php", "backend", "language", "web"],
+    "documents": [
+      {
+        "title": "PHP Docs",
+        "url": "https://www.php.net/docs.php"
+      }
+    ]
+  },
+  {
+    "description": "PHP Full Course 2025 by Dani Krossing.",
+    "link": "http://www.youtube.com/watch?v=l4_Vn-sTBL8",
+    "tags": ["php", "backend", "language", "tutorial"],
+    "documents": [
+      {
+        "title": "PHP Docs",
+        "url": "https://www.php.net/docs.php"
+      }
+    ]
+  },
+  {
+    "description": "Ruby Programming Language - Full Course by freeCodeCamp.org.",
+    "link": "http://www.youtube.com/watch?v=t_ispmWmdjY",
+    "tags": ["ruby", "backend", "language", "scripting"],
+    "documents": [
+      {
+        "title": "Ruby Docs",
+        "url": "https://www.ruby-lang.org/en/documentation/"
+      }
+    ]
+  },
+  {
+    "description": "Go Programming – Golang Course with Projects by freeCodeCamp.org.",
+    "link": "http://www.youtube.com/watch?v=un6ZyFkqFKo",
+    "tags": ["go", "golang", "backend", "language"],
+    "documents": [
+      {
+        "title": "Go Docs",
+        "url": "https://go.dev/doc/"
+      }
+    ]
+  },
+  {
+    "description": "Golang Tutorial for Beginners by TechWorld with Nana.",
+    "link": "http://www.youtube.com/watch?v=yyUHQIec83I",
+    "tags": ["go", "golang", "backend", "programming"],
+    "documents": [
+      {
+        "title": "Go Docs",
+        "url": "https://go.dev/doc/"
+      }
+    ]
+  },
+  {
+    "description": "Learn Rust Programming - Complete Course 🦀 by freeCodeCamp.org.",
+    "link": "http://www.youtube.com/watch?v=BpPEoZW5IiY",
+    "tags": ["rust", "backend", "systems", "language"],
+    "documents": [
+      {
+        "title": "Rust Docs",
+        "url": "https://doc.rust-lang.org/"
+      }
+    ]
+  },
+  {
+    "description": "Scala Tutorial Full Course by Telusko.",
+    "link": "http://www.youtube.com/watch?v=i9o70PMqMGY",
+    "tags": ["scala", "backend", "functional", "language"],
+    "documents": [
+      {
+        "title": "Scala Docs",
+        "url": "https://docs.scala-lang.org/"
+      }
+    ]
+  },
+  {
+    "description": "Learn Kotlin Programming – Full Course for Beginners by freeCodeCamp.org.",
+    "link": "http://www.youtube.com/watch?v=EExSSotojVI",
+    "tags": ["kotlin", "backend", "language", "android"],
+    "documents": [
+      {
+        "title": "Kotlin Docs",
+        "url": "https://kotlinlang.org/docs/home.html"
+      }
+    ]
+  },
+  {
+    "description": "Kotlin Crash Course For Beginners by Philipp Lackner.",
+    "link": "http://www.youtube.com/watch?v=dzUc9vrsldM",
+    "tags": ["kotlin", "backend", "language"],
+    "documents": [
+      {
+        "title": "Kotlin Docs",
+        "url": "https://kotlinlang.org/docs/home.html"
+      }
+    ]
+  },
+  {
+    "description": "Learn C# FREE Tutorial Course [2025 - 12 HOURS] by Code Monkey.",
+    "link": "http://www.youtube.com/watch?v=qZpMX8Re_2Q",
+    "tags": ["csharp", "c#", "backend", "language", ".net"],
+    "documents": [
+      {
+        "title": "C# Docs",
+        "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+      }
+    ]
+  },
+  {
+    "description": "C# Tutorial For Beginners by Mosh Hamedani.",
+    "link": "http://www.youtube.com/watch?v=gfkTfcpWqAY",
+    "tags": ["csharp", "c#", "backend", "language"],
+    "documents": [
+      {
+        "title": "C# Docs",
+        "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+      }
+    ]
+  },
+  {
+    "description": "Perl Tutorial by Derek Banas.",
+    "link": "http://www.youtube.com/watch?v=WEghIXs8F6c",
+    "tags": ["perl", "backend", "scripting", "language"],
+    "documents": [
+      {
+        "title": "Perl Docs",
+        "url": "https://perldoc.perl.org/"
+      }
+    ]
+  },
+  {
+    "description": "Elixir Tutorial by Derek Banas.",
+    "link": "http://www.youtube.com/watch?v=pBNOavRoNL0",
+    "tags": ["elixir", "backend", "language", "functional"],
+    "documents": [
+      {
+        "title": "Elixir Docs",
+        "url": "https://elixir-lang.org/learning.html"
+      }
+    ]
+  },
+  {
+    "description": "C++ Programming Course - Beginner to Advanced by freeCodeCamp.org.",
+    "link": "http://www.youtube.com/watch?v=8jLOx1hD3_o",
+    "tags": ["cplusplus", "c++", "backend", "language", "systems"],
+    "documents": [
+      {
+        "title": "C++ Docs",
+        "url": "https://cplusplus.com/doc/tutorial/"
+      }
+    ]
+  },
+  {
+    "description": "C++ Tutorial for Beginners by Mosh Hamedani.",
+    "link": "http://www.youtube.com/watch?v=ZzaPdXTrSb8",
+    "tags": ["cplusplus", "c++", "backend", "language"],
+    "documents": [
+      {
+        "title": "C++ Docs",
+        "url": "https://cplusplus.com/doc/tutorial/"
+      }
+    ]
+  },
+  {
+    "description": "C Programming Full Course by Bro Code.",
+    "link": "http://www.youtube.com/watch?v=87SH2Cn0s9A",
+    "tags": ["c", "backend", "language", "systems"],
+    "documents": [
+      {
+        "title": "C Docs",
+        "url": "https://devdocs.io/c/"
       }
     ]
   }

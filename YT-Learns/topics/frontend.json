@@ -1,25 +1,229 @@
 [
   {
-    "title": "Vue 3 Crash Course",
-    "description": "Learn Vue 3 basics and Composition API in one video.",
-    "link": "https://www.youtube.com/watch?v=ZqgiuPt5QZo",
-    "tags": ["vue", "frontend", "javascript"],
+    "description": "Learn how to use Next 3 in this full tutorial for beginners.",
+    "link": "https://www.youtube.com/watch?v=fTPCKnZZ2dk",
+    "tags": ["vue", "frontend", "javascript", "framework", "nuxtjs"],
     "documents": [
       {
-        "title": "Vue Docs",
-        "url": "https://vuejs.org/guide/introduction.html"
+        "title": "Nuxt Docs",
+        "url": "https://nuxt.com/docs/getting-started/installation"
+      },
+      {
+        "title": "Nuxt Tailwind Docs",
+        "url": "https://tailwindcss.com/docs/installation/framework-guides/nuxt"
       }
     ]
   },
   {
-    "title": "React Tutorial for Beginners",
+    "description": "Learn how to use Vue 3 in this full tutorial for beginners.",
+    "link": "https://www.youtube.com/watch?v=1GNsWa_EZdw",
+    "tags": ["vue", "frontend", "javascript", "framework"],
+    "documents": [
+      {
+        "title": "Vue Docs",
+        "url": "https://vuejs.org/guide/quick-start.html"
+      }
+    ]
+  },
+  {
     "description": "Complete beginner guide to React.js",
-    "link": "https://www.youtube.com/watch?v=dGcsHMXbSOA",
-    "tags": ["react", "frontend", "javascript"],
+    "link": "https://www.youtube.com/watch?v=CgkZ7MvWUAA",
+    "tags": ["react", "frontend", "javascript", "framework"],
     "documents": [
       {
         "title": "React Docs",
         "url": "https://reactjs.org/docs/getting-started.html"
+      }
+    ]
+  },
+  {
+    "description": "Learn HTML from scratch with this comprehensive course.",
+    "link": "http://www.youtube.com/watch?v=kUMe1FH4CHE",
+    "tags": ["html", "frontend", "web", "markup", "freecodecamp"],
+    "documents": [
+      {
+        "title": "MDN HTML Docs",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+      }
+    ]
+  },
+  {
+    "description": "HTML Crash Course for Beginners by Mosh Hamedani.",
+    "link": "http://www.youtube.com/watch?v=qz0aGYrrlhU",
+    "tags": ["html", "frontend", "web", "beginner"],
+    "documents": [
+      {
+        "title": "MDN HTML Docs",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+      }
+    ]
+  },
+  {
+    "description": "Full beginner-friendly CSS tutorial by freeCodeCamp.",
+    "link": "http://www.youtube.com/watch?v=OXGznpKZ_sA",
+    "tags": ["css", "frontend", "web", "styles", "freecodecamp"],
+    "documents": [
+      {
+        "title": "MDN CSS Docs",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      }
+    ]
+  },
+  {
+    "description": "Zero to Hero CSS course to master styling.",
+    "link": "http://www.youtube.com/watch?v=1Rs2ND1ryYc",
+    "tags": ["css", "frontend", "web", "styles"],
+    "documents": [
+      {
+        "title": "MDN CSS Docs",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      }
+    ]
+  },
+  {
+    "description": "JavaScript full course for beginners from freeCodeCamp.",
+    "link": "http://www.youtube.com/watch?v=PkZNo7MFNFg",
+    "tags": ["javascript", "frontend", "web", "programming"],
+    "documents": [
+      {
+        "title": "MDN JavaScript Docs",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      }
+    ]
+  },
+  {
+    "description": "Mosh teaches you the fundamentals of JavaScript.",
+    "link": "http://www.youtube.com/watch?v=W6NZfCO5SIk",
+    "tags": ["javascript", "frontend", "web", "beginner"],
+    "documents": [
+      {
+        "title": "MDN JavaScript Docs",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      }
+    ]
+  },
+  {
+    "description": "Master TypeScript from beginner to advanced.",
+    "link": "http://www.youtube.com/watch?v=iJkaAJUzeWQ",
+    "tags": ["typescript", "javascript", "frontend", "strong-typing"],
+    "documents": [
+      {
+        "title": "TypeScript Docs",
+        "url": "https://www.typescriptlang.org/docs/"
+      }
+    ]
+  },
+  {
+    "description": "Complete TypeScript tutorial by freeCodeCamp.",
+    "link": "http://www.youtube.com/watch?v=30LWjhZzg50",
+    "tags": ["typescript", "javascript", "frontend", "programming"],
+    "documents": [
+      {
+        "title": "TypeScript Docs",
+        "url": "https://www.typescriptlang.org/docs/"
+      }
+    ]
+  },
+  {
+    "description": "Full Dart and Flutter course for beginners.",
+    "link": "http://www.youtube.com/watch?v=CzRQ9mnmh44",
+    "tags": ["dart", "flutter", "mobile", "frontend", "programming"],
+    "documents": [
+      {
+        "title": "Dart Docs",
+        "url": "https://dart.dev/guides"
+      },
+      {
+        "title": "Flutter Docs",
+        "url": "https://docs.flutter.dev/"
+      }
+    ]
+  },
+  {
+    "description": "Complete Dart course with visual learning.",
+    "link": "http://www.youtube.com/watch?v=F3JuuYuOUK4",
+    "tags": ["dart", "frontend", "flutter", "programming"],
+    "documents": [
+      {
+        "title": "Dart Docs",
+        "url": "https://dart.dev/guides"
+      }
+    ]
+  },
+  {
+    "description": "Elm crash course to build fast and reliable web apps.",
+    "link": "http://www.youtube.com/watch?v=kEitFAY7Gc8",
+    "tags": ["elm", "frontend", "functional-programming"],
+    "documents": [
+      {
+        "title": "Elm Guide",
+        "url": "https://guide.elm-lang.org/"
+      }
+    ]
+  },
+  {
+    "description": "Quick guide to CoffeeScript programming language.",
+    "link": "http://www.youtube.com/watch?v=LwYGPc-6sa0",
+    "tags": ["coffeescript", "javascript", "frontend"],
+    "documents": [
+      {
+        "title": "CoffeeScript Docs",
+        "url": "https://coffeescript.org/"
+      }
+    ]
+  },
+  {
+    "description": "Learn Sass to write cleaner, scalable CSS.",
+    "link": "http://www.youtube.com/watch?v=_a5j7KoflTs",
+    "tags": ["sass", "scss", "css", "frontend", "preprocessor"],
+    "documents": [
+      {
+        "title": "Sass Docs",
+        "url": "https://sass-lang.com/guide"
+      }
+    ]
+  },
+  {
+    "description": "SASS and BEM explained for beginners.",
+    "link": "http://www.youtube.com/watch?v=jfMHA8SqUL4",
+    "tags": ["sass", "scss", "bem", "frontend", "css"],
+    "documents": [
+      {
+        "title": "Sass Docs",
+        "url": "https://sass-lang.com/guide"
+      }
+    ]
+  },
+  {
+    "description": "Understand CSS preprocessors like SASS and LESS.",
+    "link": "http://www.youtube.com/watch?v=6tEpTia1jWc",
+    "tags": ["less", "sass", "css", "frontend", "preprocessors"],
+    "documents": [
+      {
+        "title": "Less Docs",
+        "url": "http://lesscss.org/"
+      }
+    ]
+  },
+  {
+    "description": "GraphQL from basics to advanced in this tutorial.",
+    "link": "http://www.youtube.com/watch?v=yqWzCV0kU_c",
+    "tags": ["graphql", "frontend", "api", "query-language"],
+    "documents": [
+      {
+        "title": "GraphQL Docs",
+        "url": "https://graphql.org/learn/"
+      }
+    ]
+  },
+  {
+    "description": "Beginner GraphQL course from freeCodeCamp.",
+    "link": "http://www.youtube.com/watch?v=5199E50O7SI",
+    "tags": ["graphql", "frontend", "api"],
+    "documents": [
+      {
+        "title": "GraphQL Docs",
+        "url": "https://graphql.org/learn/"
       }
     ]
   }
