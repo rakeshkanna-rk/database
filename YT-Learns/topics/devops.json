@@ -1,0 +1,123 @@
+[
+  {
+    "description": "Python Tutorial for Beginners - Learn Python in 5 Hours by TechWorld with Nana",
+    "link": "http://www.youtube.com/watch?v=t8pPdKYpowI",
+    "tags": ["python", "devops", "automation", "scripting"],
+    "documents": [
+      {
+        "title": "Python Docs",
+        "url": "https://docs.python.org/3/"
+      }
+    ]
+  },
+  {
+    "description": "Bash Scripting Full Course 3 Hours by linuxhint",
+    "link": "http://www.youtube.com/watch?v=e7BufAVwDiM",
+    "tags": ["bash", "scripting", "linux", "automation"],
+    "documents": [
+      {
+        "title": "GNU Bash Manual",
+        "url": "https://www.gnu.org/software/bash/manual/bash.html"
+      }
+    ]
+  },
+  {
+    "description": "PowerShell For Beginners Full Course by Nerd's lesson",
+    "link": "http://www.youtube.com/watch?v=UVUd9_k9C6A",
+    "tags": ["powershell", "windows", "automation", "scripting"],
+    "documents": [
+      {
+        "title": "PowerShell Documentation",
+        "url": "https://learn.microsoft.com/en-us/powershell/"
+      }
+    ]
+  },
+  {
+    "description": "Golang Tutorial for Beginners | Full Go Course by TechWorld with Nana",
+    "link": "http://www.youtube.com/watch?v=yyUHQIec83I",
+    "tags": ["golang", "devops", "tools", "backend"],
+    "documents": [
+      {
+        "title": "Go Documentation",
+        "url": "https://go.dev/doc/"
+      }
+    ]
+  },
+  {
+    "description": "Learn Jenkins! Complete Jenkins Course - Zero to Hero by DevOps Journey",
+    "link": "http://www.youtube.com/watch?v=6YZvp2GwT0A",
+    "tags": ["jenkins", "groovy", "ci/cd", "automation"],
+    "documents": [
+      {
+        "title": "Jenkins Pipeline Syntax",
+        "url": "https://www.jenkins.io/doc/book/pipeline/syntax/"
+      }
+    ]
+  },
+  {
+    "description": "Ansible Full Course | Zero to Hero by Rahul Wagh",
+    "link": "http://www.youtube.com/watch?v=GROqwFFLl3s",
+    "tags": ["ansible", "yaml", "automation", "infrastructure"],
+    "documents": [
+      {
+        "title": "Ansible Documentation",
+        "url": "https://docs.ansible.com/"
+      }
+    ]
+  },
+  {
+    "description": "Complete Docker Course - From BEGINNER to PRO! by DevOps Directive",
+    "link": "http://www.youtube.com/watch?v=RqTEHSBrYFw",
+    "tags": ["docker", "containers", "devops", "dockerfile"],
+    "documents": [
+      {
+        "title": "Docker Documentation",
+        "url": "https://docs.docker.com/"
+      }
+    ]
+  },
+  {
+    "description": "Complete Terraform Course - From BEGINNER to PRO! by DevOps Directive",
+    "link": "http://www.youtube.com/watch?v=7xngnjfIlK4",
+    "tags": ["terraform", "iac", "hcl", "infrastructure"],
+    "documents": [
+      {
+        "title": "Terraform Documentation",
+        "url": "https://developer.hashicorp.com/terraform/docs"
+      }
+    ]
+  },
+  {
+    "description": "Chef, Puppet And Ansible Full Course | Configuration Management Tools Explained by Simplilearn",
+    "link": "http://www.youtube.com/watch?v=O1s16cYzC10",
+    "tags": ["chef", "ruby", "devops", "infrastructure"],
+    "documents": [
+      {
+        "title": "Chef Documentation",
+        "url": "https://docs.chef.io/"
+      }
+    ]
+  },
+  {
+    "description": "Puppet Full Course | Learn Puppet Step By Step by Simplilearn",
+    "link": "http://www.youtube.com/watch?v=F-NGOvYiV9g",
+    "tags": ["puppet", "puppetdsl", "configuration", "devops"],
+    "documents": [
+      {
+        "title": "Puppet Documentation",
+        "url": "https://puppet.com/docs/puppet/latest/puppet_index.html"
+      }
+    ]
+  },
+  {
+    "description": "SaltStack Configuration Management Best Practices by Salt Project",
+    "link": "http://www.youtube.com/watch?v=xr8Zh1zvd7k",
+    "tags": ["saltstack", "python", "infrastructure", "devops"],
+    "documents": [
+      {
+        "title": "SaltStack Documentation",
+        "url": "https://docs.saltproject.io/"
+      }
+    ]
+  }
+]

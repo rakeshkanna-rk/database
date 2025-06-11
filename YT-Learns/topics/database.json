@@ -1,25 +1,126 @@
 [
   {
-    "title": "SQL Tutorial - Full Database Course",
-    "description": "Complete SQL tutorial covering queries, joins, and more.",
-    "link": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
-    "tags": ["sql", "database"],
+    "description": "SQL Tutorial for Beginners [Ultimate Full Course] - covers SQL from zero to hero.",
+    "link": "https://www.youtube.com/watch?v=NTgejLheGeU",
+    "tags": ["sql", "database", "query", "relational"],
     "documents": [
       {
-        "title": "W3Schools SQL",
+        "title": "W3Schools SQL Tutorial",
+        "url": "https://www.w3schools.com/sql/"
+      },
+      {
+        "title": "PostgreSQL SQL Reference",
+        "url": "https://www.postgresql.org/docs/current/sql.html"
+      }
+    ]
+  },
+  {
+    "description": "Learn SQL Beginner to Advanced in Under 4 Hours by Alex The Analyst.",
+    "link": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
+    "tags": ["sql", "database", "query", "relational"],
+    "documents": [
+      {
+        "title": "W3Schools SQL Tutorial",
         "url": "https://www.w3schools.com/sql/"
       }
     ]
   },
   {
-    "title": "MongoDB Crash Course",
-    "description": "Learn NoSQL with MongoDB, CRUD, and Mongoose.",
-    "link": "https://www.youtube.com/watch?v=-56x56UppqQ",
-    "tags": ["mongodb", "nosql", "database"],
+    "description": "PLSQL Tutorial For Beginner to Advance playlist by EqualConnect Coach.",
+    "link": "https://www.youtube.com/playlist?list=PLiLpmqwkwkCvIUXoBNkEQEgI-ftOvXf38",
+    "tags": ["pl/sql", "oracle", "database", "procedural"],
     "documents": [
       {
-        "title": "MongoDB Docs",
-        "url": "https://www.mongodb.com/docs/"
+        "title": "Oracle PL/SQL Language Reference",
+        "url": "https://docs.oracle.com/en/database/oracle/oracle-database/21/lnpls/index.html"
+      }
+    ]
+  },
+  {
+    "description": "Beginner to T-SQL [Full Course] by Pragmatic Works.",
+    "link": "https://www.youtube.com/watch?v=cACat4KNncg&pp=0gcJCdgAo7VqN5tD",
+    "tags": ["tsql", "sql server", "database", "procedural"],
+    "documents": [
+      {
+        "title": "Microsoft T-SQL Documentation",
+        "url": "https://learn.microsoft.com/en-us/sql/t-sql/language-reference"
+      }
+    ]
+  },
+  {
+    "description": "Learn PostgreSQL Tutorial - Full Course for Beginners by freeCodeCamp.org.",
+    "link": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+    "tags": ["pl/pgsql", "postgresql", "database", "procedural"],
+    "documents": [
+      {
+        "title": "PostgreSQL PL/pgSQL Documentation",
+        "url": "https://www.postgresql.org/docs/current/plpgsql.html"
+      }
+    ]
+  },
+  {
+    "description": "MongoDB Full Course - Beginner to Advanced by Dave Gray.",
+    "link": "https://www.youtube.com/watch?v=unavailable", 
+    "tags": ["mongodb", "mql", "nosql", "database"],
+    "documents": [
+      {
+        "title": "MongoDB Manual",
+        "url": "https://docs.mongodb.com/manual/"
+      }
+    ]
+  },
+  {
+    "description": "MongoDB Tutorial For Beginners by Telusko playlist.",
+    "link": "https://www.youtube.com/watch?v=unavailable",
+    "tags": ["mongodb", "mql", "nosql", "database"],
+    "documents": [
+      {
+        "title": "MongoDB Manual",
+        "url": "https://docs.mongodb.com/manual/"
+      }
+    ]
+  },
+  {
+    "description": "Understanding Cypher Query Language by Neo4j official playlist.",
+    "link": "https://www.youtube.com/playlist?list=PL9Hl4pk2FsvV02qMV4n5aXshO9YeeAgfp",
+    "tags": ["cypher", "neo4j", "graph", "database"],
+    "documents": [
+      {
+        "title": "Neo4j Cypher Manual",
+        "url": "https://neo4j.com/docs/cypher-manual/current/"
+      }
+    ]
+  },
+  {
+    "description": "Practical Gremlin (free e‑book) – best resource for Gremlin query language.",
+    "link": "https://tinkerpop.apache.org/docs/current/gremlin-manual/",
+    "tags": ["gremlin", "graph", "database"],
+    "documents": [
+      {
+        "title": "Apache TinkerPop Gremlin Language Reference",
+        "url": "https://tinkerpop.apache.org/docs/current/reference/"
+      }
+    ]
+  },
+  {
+    "description": "LINQ tutorial for beginners playlist by WebGentle.",
+    "link": "https://www.youtube.com/playlist?list=PLaFzfwmPR7_IZuwiT6nqcvNEhKl_Mg19A",
+    "tags": ["linq", "csharp", ".net", "query-language"],
+    "documents": [
+      {
+        "title": "Microsoft LINQ Documentation",
+        "url": "https://learn.microsoft.com/en‑us/dotnet/csharp/programming-guide/concepts/linq/"
+      }
+    ]
+  },
+  {
+    "description": "C# LINQ Tutorial for Beginners by IAmTimCorey.",
+    "link": "https://www.youtube.com/watch?v=QjeLxO-LF6s",
+    "tags": ["linq", "csharp", ".net", "query-language"],
+    "documents": [
+      {
+        "title": "Microsoft LINQ Documentation",
+        "url": "https://learn.microsoft.com/en‑us/dotnet/csharp/programming-guide/concepts/linq/"
       }
     ]
   }
