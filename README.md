@@ -52,6 +52,7 @@ You can then pass the data to components or display it directly.
 - [Frontend](https://rakeshkanna-rk.github.io/database/YT-Learns/topics/frontend.json)
 - [Backend](https://rakeshkanna-rk.github.io/database/YT-Learns/topics/backend.json)
 - [Database](https://rakeshkanna-rk.github.io/database/YT-Learns/topics/database.json)
+- [DevOps](https://rakeshkanna-rk.github.io/database/YT-Learns/topics/devops.json)
 
 ### Common
 
