@@ -1,0 +1,115 @@
+[
+  {
+    "description": "Python for Data Science - Course for Beginners (Learn Python, Pandas, NumPy, Matplotlib)",
+    "link": "http://www.youtube.com/watch?v=LHBE6Q9XlzI",
+    "tags": [
+      "python",
+      "data science",
+      "machine learning",
+      "ai",
+      "pandas",
+      "numpy",
+      "matplotlib"
+    ],
+    "documents": [
+      {
+        "title": "Python Docs",
+        "url": "https://docs.python.org/3/"
+      },
+      {
+        "title": "Pandas Documentation",
+        "url": "https://pandas.pydata.org/docs/"
+      },
+      {
+        "title": "NumPy Documentation",
+        "url": "https://numpy.org/doc/"
+      },
+      {
+        "title": "Matplotlib Documentation",
+        "url": "https://matplotlib.org/stable/contents.html"
+      }
+    ]
+  },
+  {
+    "description": "R Programming Tutorial - Learn the Basics of Statistical Computing",
+    "link": "http://www.youtube.com/watch?v=_V8eKsto3Ug",
+    "tags": ["r", "statistics", "data science", "machine learning"],
+    "documents": [
+      {
+        "title": "R Documentation",
+        "url": "https://www.r-project.org/other-docs.html"
+      }
+    ]
+  },
+  {
+    "description": "Explore Julia Language's official tutorials for Data Science & Scientific Computing",
+    "link": "https://www.youtube.com/user/JuliaLanguage",
+    "tags": ["julia", "data science", "scientific computing"],
+    "documents": [
+      {
+        "title": "Julia Documentation",
+        "url": "https://docs.julialang.org/en/v1/"
+      }
+    ]
+  },
+  {
+    "description": "Scala Tutorial Full Course by Telusko",
+    "link": "http://www.youtube.com/watch?v=i9o70PMqMGY",
+    "tags": ["scala", "data processing", "big data", "ml"],
+    "documents": [
+      {
+        "title": "Scala Documentation",
+        "url": "https://docs.scala-lang.org/"
+      }
+    ]
+  },
+  {
+    "description": "The Complete MATLAB Course: Beginner to Advanced! by Joseph Delgadillo",
+    "link": "http://www.youtube.com/watch?v=T_ekAD7U-wU",
+    "tags": [
+      "matlab",
+      "numerical computing",
+      "data science",
+      "machine learning"
+    ],
+    "documents": [
+      {
+        "title": "MATLAB Docs",
+        "url": "https://www.mathworks.com/help/matlab/"
+      }
+    ]
+  },
+  {
+    "description": "SAS Training | SAS Tutorial | Intellipaat",
+    "link": "http://www.youtube.com/watch?v=xnnlxTAimOQ",
+    "tags": ["sas", "data analysis", "statistics", "data science"],
+    "documents": [
+      {
+        "title": "SAS Documentation",
+        "url": "https://documentation.sas.com/"
+      }
+    ]
+  },
+  {
+    "description": "SQL Course for Beginners [Full Course] by Programming with Mosh",
+    "link": "http://www.youtube.com/watch?v=7S_tz1z_5bA",
+    "tags": ["sql", "data science", "database", "queries"],
+    "documents": [
+      {
+        "title": "SQL Reference",
+        "url": "https://www.w3schools.com/sql/"
+      }
+    ]
+  },
+  {
+    "description": "Java Full Course for Beginners by Programming with Mosh",
+    "link": "http://www.youtube.com/watch?v=eIrMbAQSU34",
+    "tags": ["java", "backend", "ai", "ml", "oop"],
+    "documents": [
+      {
+        "title": "Java Documentation",
+        "url": "https://docs.oracle.com/en/java/"
+      }
+    ]
+  }
+]

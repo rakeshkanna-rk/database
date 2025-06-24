@@ -1,0 +1,79 @@
+[
+  {
+    "description": "Python for Beginners - Full Course",
+    "link": "https://www.youtube.com/watch?v=eWRfhZUzrAc",
+    "tags": ["python", "scripting", "automation", "devops"],
+    "documents": [
+      {
+        "title": "Python Docs",
+        "url": "https://docs.python.org/3/"
+      }
+    ]
+  },
+  {
+    "description": "Bash Scripting Full Course 3 Hours",
+    "link": "https://www.youtube.com/watch?v=e73pfy_220g",
+    "tags": ["bash", "shell", "linux", "scripting", "automation"],
+    "documents": [
+      {
+        "title": "GNU Bash Manual",
+        "url": "https://www.gnu.org/software/bash/manual/bash.html"
+      }
+    ]
+  },
+  {
+    "description": "PowerShell For Beginners Full Course",
+    "link": "https://www.youtube.com/watch?v=UVud6sl2h_c",
+    "tags": ["powershell", "windows", "scripting", "automation"],
+    "documents": [
+      {
+        "title": "PowerShell Documentation",
+        "url": "https://learn.microsoft.com/en-us/powershell/"
+      }
+    ]
+  },
+  {
+    "description": "Perl Tutorial by Derek Banas",
+    "link": "https://www.youtube.com/watch?v=WEghIih_N-E",
+    "tags": ["perl", "scripting", "automation", "devops"],
+    "documents": [
+      {
+        "title": "Perl Docs",
+        "url": "https://perldoc.perl.org/"
+      }
+    ]
+  },
+  {
+    "description": "Ruby Programming Language - Full Course",
+    "link": "https://www.youtube.com/watch?v=t_ispmWmdjY",
+    "tags": ["ruby", "scripting", "automation", "devops"],
+    "documents": [
+      {
+        "title": "Ruby Documentation",
+        "url": "https://www.ruby-lang.org/en/documentation/"
+      }
+    ]
+  },
+  {
+    "description": "Groovy Beginner Tutorial (Playlist)",
+    "link": "https://www.youtube.com/playlist?list=PLhW3qG5bs-L_IHs_G-z1-S-aV3a5Gg3VI",
+    "tags": ["groovy", "jenkins", "scripting", "automation", "devops"],
+    "documents": [
+      {
+        "title": "Groovy Docs",
+        "url": "https://groovy-lang.org/documentation.html"
+      }
+    ]
+  },
+  {
+    "description": "Full Lua Programming Crash Course - Beginner to Advanced",
+    "link": "https://www.youtube.com/watch?v=S4eNl1rA1Ns",
+    "tags": ["lua", "scripting", "automation", "game dev"],
+    "documents": [
+      {
+        "title": "Lua Docs",
+        "url": "https://www.lua.org/manual/5.4/"
+      }
+    ]
+  }
+]
