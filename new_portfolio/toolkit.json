@@ -1,34 +1,27 @@
 {
   "tools": [
-    { "name": "HTML", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/html5.svg" },
-    { "name": "CSS", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/css3.svg" },
-    { "name": "JavaScript", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/javascript.svg" },
-    { "name": "Bootstrap", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/bootstrap.svg" },
-    { "name": "Vue.js", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/vuejs.svg" },
-    { "name": "Node.js", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/nodejs.svg" },
-    { "name": "MySQL", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/mysql.svg" },
-    { "name": "Python", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/python.svg" },
-    { "name": "Flask", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/flask.svg" },
-    { "name": "Figma", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/figma.svg" },
-    { "name": "Canva", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/canva.svg" },
-    { "name": "Lightroom", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/lightroom.png" },
-    { "name": "VN", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/vn.png" },
-    { "name": "VS Code", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/vscode.svg" },
-    { "name": "PyCharm", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/pycharm.svg" },
-    { "name": "Git", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/git.svg" }
+    { "name": "Figma", "img": "/img_toolkit/figma.svg" },
+    { "name": "Canva", "img": "/img_toolkit/canva.svg" },
+    { "name": "Photoshop", "img": "/img_toolkit/photoshop.svg" },
+    { "name": "Node.js", "img": "/img_toolkit/nodejs.svg" },
+    { "name": "Git", "img": "/img_toolkit/git.svg" },
+    { "name": "VS Code", "img": "/img_toolkit/vscode.svg" },
+    { "name": "Antigravity", "img": "/img_toolkit/antigravity.svg" },
+    { "name": "Emergent", "img": "/img_toolkit/emergent.svg" },
+    { "name": "AI Studio", "img": "/img_toolkit/aistudio.svg" }
   ],
   "skills": [
     {
       "category": "Design",
-      "items": ["UI/UX Design", "Brand Identity", "Motion & Animation", "Design Systems", "Prototyping", "Visual Direction", "Typography"]
+      "items": ["UI/UX Design", "Brand Identity", "Design Systems", "Prototyping", "Product Design","Visual Design", "Typography"]
     },
     {
       "category": "Development",
-      "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js", "Python", "REST APIs"]
+      "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js", "Python", "REST APIs", "Python"]
     },
     {
       "category": "Process",
-      "items": ["Creative Direction", "User Research", "Product Strategy", "Design Thinking", "Team Collaboration", "Wireframing"]
+      "items": ["Creative Direction", "User Research", "Product Strategy", "Color Theory", "Design Thinking", "Team Collaboration", "Wireframing"]
     }
   ]
 }
