@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "id": "mergex",
+      "title": "Mergex",
+      "image": ["/img_works/gtech.png", "/img_works/monish.png", "/img_works/travelguy.png"],
+      "type": "carousel",
+      "category": "Product Branding & UI"
+    },
+    {
       "id": "G-Tech",
       "title": "G-Tech",
       "image": "/img_works/gtech.png",
@@ -17,9 +24,9 @@
     {
       "id": "travel-guy",
       "title": "Travel Guy",
-      "image": "/img_works/travelguy.png",
+      "image": ["/img_works/travelguy.png", "/img_works/travelguy.png", "/img_works/travelguy.png"],
       "url": "https://www.behance.net/embed/project/188872021?ilo0=1",
-      "type": "website"
+      "type": "carousel"
     },
     {
       "id": "vision-pro",
@@ -45,7 +52,7 @@
     {
       "id": "darkest",
       "title": "DarkEST",
-      "image": "/img_works/educenter.png",
+      "image": "/img_works/darkest.png",
       "url": "https://github.com/rakeshkanna-rk/darkest",
       "type": "website"
     }
