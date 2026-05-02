@@ -3,35 +3,35 @@
     {
       "id": "travel-guy",
       "title": "Travel Guy",
-      "image": "https://rakeshkanna-rk.github.io/database/portfolio/img/projects/travelguy.png",
+      "image": "/img_works/educenter.png",
       "url": "https://www.behance.net/gallery/188872021/Travel-Guy-Tourism-Website-Landing-Page-Design",
       "type": "website"
     },
     {
       "id": "vision-pro",
       "title": "Instagram for Vision Pro",
-      "image": "https://rakeshkanna-rk.github.io/database/portfolio/img/projects/visionpro.png",
+      "image": "/img_works/educenter.png",
       "url": "https://www.behance.net/gallery/178698351/Apple-Vision-Pro-Instagram-UI",
       "type": "website"
     },
     {
       "id": "education-center",
       "title": "Education Center",
-      "image": "https://rakeshkanna-rk.github.io/database/portfolio/img/projects/educenter.png",
+      "image": "/img_works/educenter.png",
       "url": "https://www.behance.net/gallery/178610739/Education-Center-A-Learning-app-Case-study",
       "type": "website"
     },
     {
       "id": "code-editor",
       "title": "Code Editor",
-      "image": "https://rakeshkanna-rk.github.io/database/portfolio/img/projects/codeeditor.png",
+      "image": "/img_works/educenter.png",
       "url": "https://rakeshkanna-rk.github.io/Code-Editor/",
       "type": "website"
     },
     {
       "id": "darkest",
       "title": "DarkEST",
-      "image": "https://rakeshkanna-rk.github.io/database/portfolio/img/projects/darkest.png",
+      "image": "/img_works/educenter.png",
       "url": "https://github.com/rakeshkanna-rk/darkest",
       "type": "website"
     }
