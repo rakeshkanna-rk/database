@@ -1,30 +1,44 @@
 {
   "projects": [
     {
+      "id": "G-Tech",
+      "title": "G-Tech",
+      "image": "/img_works/gtech.png",
+      "url": "https://generalizedtechnology.vercel.app/",
+      "type": "website"
+    },
+    {
+      "id": "Monishwar",
+      "title": "Monishwar",
+      "image": "/img_works/monishwar.png",
+      "url": "https://monishwar.vercel.app/",
+      "type": "website"
+    },
+    {
       "id": "travel-guy",
       "title": "Travel Guy",
-      "image": "/img_works/educenter.png",
-      "url": "https://www.behance.net/gallery/188872021/Travel-Guy-Tourism-Website-Landing-Page-Design",
+      "image": "/img_works/travelguy.png",
+      "url": "https://www.behance.net/embed/project/188872021?ilo0=1",
       "type": "website"
     },
     {
       "id": "vision-pro",
       "title": "Instagram for Vision Pro",
-      "image": "/img_works/educenter.png",
-      "url": "https://www.behance.net/gallery/178698351/Apple-Vision-Pro-Instagram-UI",
+      "image": "/img_works/visionpro.png",
+      "url": "https://www.behance.net/embed/project/178698351?ilo0=1",
       "type": "website"
     },
     {
       "id": "education-center",
       "title": "Education Center",
       "image": "/img_works/educenter.png",
-      "url": "https://www.behance.net/gallery/178610739/Education-Center-A-Learning-app-Case-study",
+      "url": "https://www.behance.net/embed/project/178610739?ilo0=1",
       "type": "website"
     },
     {
       "id": "code-editor",
       "title": "Code Editor",
-      "image": "/img_works/educenter.png",
+      "image": "/img_works/codeeditor.png",
       "url": "https://rakeshkanna-rk.github.io/Code-Editor/",
       "type": "website"
     },
