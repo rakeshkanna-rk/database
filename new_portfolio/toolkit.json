@@ -1,6 +1,7 @@
 {
   "tools": [
     { "name": "Figma", "img": "/img_toolkit/figma.svg" },
+    { "name": "Framer", "img": "/img_toolkit/framer.svg" },
     { "name": "Canva", "img": "/img_toolkit/canva.svg" },
     { "name": "Photoshop", "img": "/img_toolkit/photoshop.svg" },
     { "name": "Node.js", "img": "/img_toolkit/nodejs.svg" },
@@ -8,7 +9,8 @@
     { "name": "VS Code", "img": "/img_toolkit/vscode.svg" },
     { "name": "Antigravity", "img": "/img_toolkit/antigravity.svg" },
     { "name": "Emergent", "img": "/img_toolkit/emergent.svg" },
-    { "name": "AI Studio", "img": "/img_toolkit/aistudio.svg" }
+    { "name": "AI Studio", "img": "/img_toolkit/aistudio.svg" },
+    { "name": "Supabase", "img": "/img_toolkit/supabase.svg" }
   ],
   "skills": [
     {
