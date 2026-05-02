@@ -1,13 +1,6 @@
 {
   "projects": [
     {
-      "id": "mergex",
-      "title": "Mergex",
-      "image": ["/img_works/gtech.png", "/img_works/monish.png", "/img_works/travelguy.png"],
-      "type": "carousel",
-      "category": "Product Branding & UI"
-    },
-    {
       "id": "G-Tech",
       "title": "G-Tech",
       "image": "/img_works/gtech.png",
@@ -24,23 +17,46 @@
     {
       "id": "travel-guy",
       "title": "Travel Guy",
-      "image": ["/img_works/travelguy.png", "/img_works/travelguy.png", "/img_works/travelguy.png"],
+      "image": [
+        "/img_works/travelguy/travelguy.png",
+        "/img_works/travelguy/img1.png",
+        "/img_works/travelguy/img2.png",
+        "/img_works/travelguy/img3.png",
+        "/img_works/travelguy/img4.png",
+        "/img_works/travelguy/img5.png"
+      ],
       "url": "https://www.behance.net/gallery/188872021/Travel-Guy-Tourism-Website-Landing-Page-Design",
+      "type": "carousel"
+    },
+    {
+      "id": "education-center",
+      "title": "Education Center",
+      "image": [
+        "/img_works/educenter/educenter.png",
+        "/img_works/educenter/img1.png",
+        "/img_works/educenter/img2.png",
+        "/img_works/educenter/img3.png",
+        "/img_works/educenter/img4.png",
+        "/img_works/educenter/img5.png",
+        "/img_works/educenter/img6.png",
+        "/img_works/educenter/img7.png",
+        "/img_works/educenter/img8.png",
+        "/img_works/educenter/img9.png"
+      ],
+      "url": "https://www.behance.net/gallery/178610739/Education-Center-A-Learning-app-Case-study",
       "type": "carousel"
     },
     {
       "id": "vision-pro",
       "title": "Instagram for Vision Pro",
-      "image": "/img_works/visionpro.png",
-      "url": "https://www.behance.net/embed/project/178698351?ilo0=1",
-      "type": "website"
-    },
-    {
-      "id": "education-center",
-      "title": "Education Center",
-      "image": "/img_works/educenter.png",
-      "url": "https://www.behance.net/embed/project/178610739?ilo0=1",
-      "type": "website"
+      "image": [
+        "/img_works/visionpro/visionpro.png",
+        "/img_works/visionpro/img1.png",
+        "/img_works/visionpro/img2.png",
+        "/img_works/visionpro/img3.png"
+      ],
+      "url": "https://www.behance.net/gallery/178698351/Instagram-for-Vision-Pro-Case-study",
+      "type": "carousel"
     },
     {
       "id": "code-editor",
