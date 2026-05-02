@@ -19,11 +19,11 @@
       "title": "Travel Guy",
       "image": [
         "/img_works/travelguy/travelguy.png",
-        "/img_works/travelguy/img1.png",
-        "/img_works/travelguy/img2.png",
-        "/img_works/travelguy/img3.png",
-        "/img_works/travelguy/img4.png",
-        "/img_works/travelguy/img5.png"
+        "/img_works/travelguy/img1.webp",
+        "/img_works/travelguy/img2.webp",
+        "/img_works/travelguy/img3.webp",
+        "/img_works/travelguy/img4.webp",
+        "/img_works/travelguy/img5.webp"
       ],
       "url": "https://www.behance.net/gallery/188872021/Travel-Guy-Tourism-Website-Landing-Page-Design",
       "type": "carousel"
@@ -68,9 +68,9 @@
     {
       "id": "darkest",
       "title": "DarkEST",
-      "image": "/img_works/darkest.png",
+      "image": ["/img_works/darkest/darkest.png", "/img_works/darkest/darkest_view.png"],
       "url": "https://marketplace.visualstudio.com/items?itemName=RakeshKannaS.darkest-theme",
-      "type": "website"
+      "type": "carousel"
     }
   ],
   "posters": [
