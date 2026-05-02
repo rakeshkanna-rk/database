@@ -35,13 +35,13 @@
         "/img_works/educenter/educenter.png",
         "/img_works/educenter/img1.png",
         "/img_works/educenter/img2.png",
-        "/img_works/educenter/img3.png",
-        "/img_works/educenter/img4.png",
-        "/img_works/educenter/img5.png",
-        "/img_works/educenter/img6.png",
-        "/img_works/educenter/img7.png",
-        "/img_works/educenter/img8.png",
-        "/img_works/educenter/img9.png"
+        "/img_works/educenter/img3.jpg",
+        "/img_works/educenter/img4.jpg",
+        "/img_works/educenter/img5.jpg",
+        "/img_works/educenter/img6.jpg",
+        "/img_works/educenter/img7.jpg",
+        "/img_works/educenter/img8.jpg",
+        "/img_works/educenter/img9.jpg"
       ],
       "url": "https://www.behance.net/gallery/178610739/Education-Center-A-Learning-app-Case-study",
       "type": "carousel"
@@ -52,8 +52,8 @@
       "image": [
         "/img_works/visionpro/visionpro.png",
         "/img_works/visionpro/img1.png",
-        "/img_works/visionpro/img2.png",
-        "/img_works/visionpro/img3.png"
+        "/img_works/visionpro/img2.jpg",
+        "/img_works/visionpro/img3.jpg"
       ],
       "url": "https://www.behance.net/gallery/178698351/Instagram-for-Vision-Pro-Case-study",
       "type": "carousel"
