@@ -1,0 +1,83 @@
+{
+  "projects": [
+    {
+      "id": "g-tech",
+      "title": "G-TECH",
+      "image": "/images/image1.png",
+      "url": "http://generalizedtechnology.vercel.app/",
+      "type": "website"
+    },
+    {
+      "id": "monishwar-1",
+      "title": "MONISHWAR",
+      "image": "/images/image2.png",
+      "url": "https://monishwar.vercel.app/",
+      "type": "website"
+    },
+    {
+      "id": "monishwar-2",
+      "title": "MONISHWAR",
+      "image": "/images/image3.png",
+      "url": "https://monishwar.com",
+      "type": "website"
+    },
+    {
+      "id": "monishwar-3",
+      "title": "MONISHWAR",
+      "image": "/images/image1.png",
+      "url": "https://monishwar.com",
+      "type": "website"
+    },
+    {
+      "id": "monishwar-4",
+      "title": "MONISHWAR",
+      "image": "/images/image1.png",
+      "url": "https://monishwar.com",
+      "type": "website"
+    }
+  ],
+  "posters": [
+    {
+      "id": "vibrance",
+      "title": "VIBRANCE",
+      "image": "/images/image1.png",
+      "category": "POSTER DESIGN",
+      "type": "poster"
+    },
+    {
+      "id": "neon-nights",
+      "title": "NEON NIGHTS",
+      "image": "/images/image2.png",
+      "category": "DIGITAL ART",
+      "type": "poster"
+    },
+    {
+      "id": "minimalism",
+      "title": "MINIMALISM",
+      "image": "/images/image3.png",
+      "category": "BRANDING",
+      "type": "poster"
+    },
+    {
+      "id": "concrete",
+      "title": "CONCRETE",
+      "image": "/images/image2.png",
+      "category": "POSTER DESIGN",
+      "type": "poster"
+    },
+    {
+      "id": "futurism",
+      "title": "FUTURISM",
+      "image": "/images/image3.png",
+      "category": "EXPERIMENTAL",
+      "type": "poster"
+    },
+    {
+      "id": "retro-grade",
+      "title": "RETRO GRADE",
+      "image": "/images/image1.png",
+      "category": "POSTER DESIGN",
+      "type": "poster"
+    }
+  ]
+}

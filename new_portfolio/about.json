@@ -1,0 +1,31 @@
+{
+  "aboutText": "I design digital experiences with a strong focus on clarity, visual consistency, and how things feel in use. My work is rooted in UI/UX and brand thinking, where every interface is shaped to be simple, structured, and easy to navigate. I pay close attention to spacing, typography, and visual rhythm to make sure each product feels cohesive from end to end.\n\n  I work closely with early-stage ideas and growing products, shaping both the interface and the brand as they evolve. From defining visual direction to building scalable design systems, I focus on creating work that holds together across screens and touchpoints. Currently, I lead design and brand experience at Mergex, where I handle the overall direction of product design and ensure consistency across everything we build.",
+  "experiences": [
+    {
+      "role": "Graphics Designer & Web Designer",
+      "company": "Runverve",
+      "type": "Internship",
+      "description": [
+        "Designed pitch decks, standees, print materials, and responsive websites using Wix for a sports-tech startup incubated at IITM.",
+        "Supported branding and marketing efforts through creative visual assets."
+      ],
+      "period": "Feb 2025 \u2013 Jun 2025",
+      "location": "Tamil Nadu, India",
+      "workType": "Remote",
+      "icon": "https://api.indieground.net/v1/assets/logo.png"
+    },
+    {
+      "role": "Head of Design and Experience",
+      "company": "MergeX",
+      "type": "Full Time",
+      "description": [
+        "Designed pitch decks, standees, print materials, and responsive websites using Wix for a sports-tech startup incubated at IITM.",
+        "Supported branding and marketing efforts through creative visual assets."
+      ],
+      "period": "Feb 2025 \u2013 Jun 2025",
+      "location": "Tamil Nadu, India",
+      "workType": "Remote",
+      "icon": "/mergex_logo.svg"
+    }
+  ]
+}

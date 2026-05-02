@@ -1,0 +1,30 @@
+{
+  "tools": [
+    { "name": "Figma",      "img": "/icons/tools/figma.svg" },
+    { "name": "Framer",     "img": "/icons/tools/framer.svg" },
+    { "name": "Photoshop",  "img": "/icons/tools/photoshop.svg" },
+    { "name": "Illustrator","img": "/icons/tools/illustrator.svg" },
+    { "name": "After FX",   "img": "/icons/tools/aftereffects.svg" },
+    { "name": "Notion",     "img": "/icons/tools/notion.svg" },
+    { "name": "VS Code",    "img": "/icons/tools/vscode.svg" },
+    { "name": "React",      "img": "/icons/tools/react.svg" },
+    { "name": "Tailwind",   "img": "/icons/tools/tailwind.svg" },
+    { "name": "Node.js",    "img": "/icons/tools/nodejs.svg" },
+    { "name": "Python",     "img": "/icons/tools/python.svg" },
+    { "name": "Git",        "img": "/icons/tools/git.svg" }
+  ],
+  "skills": [
+    {
+      "category": "Design",
+      "items": ["UI/UX Design", "Brand Identity", "Motion & Animation", "Design Systems", "Prototyping", "Visual Direction", "Typography"]
+    },
+    {
+      "category": "Development",
+      "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js", "Python", "REST APIs"]
+    },
+    {
+      "category": "Process",
+      "items": ["Creative Direction", "User Research", "Product Strategy", "Design Thinking", "Team Collaboration", "Wireframing"]
+    }
+  ]
+}
