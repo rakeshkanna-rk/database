@@ -1,17 +1,21 @@
 {
   "tools": [
-    { "name": "Figma",      "img": "/icons/tools/figma.svg" },
-    { "name": "Framer",     "img": "/icons/tools/framer.svg" },
-    { "name": "Photoshop",  "img": "/icons/tools/photoshop.svg" },
-    { "name": "Illustrator","img": "/icons/tools/illustrator.svg" },
-    { "name": "After FX",   "img": "/icons/tools/aftereffects.svg" },
-    { "name": "Notion",     "img": "/icons/tools/notion.svg" },
-    { "name": "VS Code",    "img": "/icons/tools/vscode.svg" },
-    { "name": "React",      "img": "/icons/tools/react.svg" },
-    { "name": "Tailwind",   "img": "/icons/tools/tailwind.svg" },
-    { "name": "Node.js",    "img": "/icons/tools/nodejs.svg" },
-    { "name": "Python",     "img": "/icons/tools/python.svg" },
-    { "name": "Git",        "img": "/icons/tools/git.svg" }
+    { "name": "HTML", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/html5.svg" },
+    { "name": "CSS", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/css3.svg" },
+    { "name": "JavaScript", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/javascript.svg" },
+    { "name": "Bootstrap", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/bootstrap.svg" },
+    { "name": "Vue.js", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/vuejs.svg" },
+    { "name": "Node.js", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/nodejs.svg" },
+    { "name": "MySQL", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/mysql.svg" },
+    { "name": "Python", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/python.svg" },
+    { "name": "Flask", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/flask.svg" },
+    { "name": "Figma", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/figma.svg" },
+    { "name": "Canva", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/canva.svg" },
+    { "name": "Lightroom", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/lightroom.png" },
+    { "name": "VN", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/vn.png" },
+    { "name": "VS Code", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/vscode.svg" },
+    { "name": "PyCharm", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/pycharm.svg" },
+    { "name": "Git", "img": "https://rakeshkanna-rk.github.io/database/portfolio/img/techstack/git.svg" }
   ],
   "skills": [
     {

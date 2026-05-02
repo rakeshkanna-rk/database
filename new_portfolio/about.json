@@ -2,6 +2,19 @@
   "aboutText": "I design digital experiences with a strong focus on clarity, visual consistency, and how things feel in use. My work is rooted in UI/UX and brand thinking, where every interface is shaped to be simple, structured, and easy to navigate. I pay close attention to spacing, typography, and visual rhythm to make sure each product feels cohesive from end to end.\n\n  I work closely with early-stage ideas and growing products, shaping both the interface and the brand as they evolve. From defining visual direction to building scalable design systems, I focus on creating work that holds together across screens and touchpoints. Currently, I lead design and brand experience at Mergex, where I handle the overall direction of product design and ensure consistency across everything we build.",
   "experiences": [
     {
+      "role": "Head of Design",
+      "company": "MergeX",
+      "type": "Full Time",
+      "description": [
+        "Designed and implemented user interfaces and user experiences for a media-tech startup.",
+        "Collaborated with cross-functional teams to create visually appealing and user-friendly interfaces."
+      ],
+      "period": "Sep 2025 \u2013 Nov 2025",
+      "location": "Tamil Nadu, India",
+      "workType": "Remote",
+      "icon": "/img_about/mergex.svg"
+    },
+    {
       "role": "Graphics Designer & Web Designer",
       "company": "Runverve",
       "type": "Internship",
@@ -12,20 +25,44 @@
       "period": "Feb 2025 \u2013 Jun 2025",
       "location": "Tamil Nadu, India",
       "workType": "Remote",
-      "icon": "https://api.indieground.net/v1/assets/logo.png"
+      "icon": "/img_about/runverve.svg"
     },
     {
-      "role": "Head of Design and Experience",
-      "company": "MergeX",
-      "type": "Full Time",
+      "role": "Graphic Design Lead",
+      "company": "G-Tech (College Club)",
+      "type": "Part Time",
       "description": [
-        "Designed pitch decks, standees, print materials, and responsive websites using Wix for a sports-tech startup incubated at IITM.",
-        "Supported branding and marketing efforts through creative visual assets."
+        "Led creative direction for college cultural fest LYNX 25\u2019 and other event designs.",
+        "Collaborated with event teams to produce posters, banners, and social media content."
       ],
-      "period": "Feb 2025 \u2013 Jun 2025",
-      "location": "Tamil Nadu, India",
-      "workType": "Remote",
-      "icon": "/mergex_logo.svg"
+      "period": "Apr 2025 \u2013 Present",
+      "location": "Chennai, India",
+      "workType": "On-site",
+      "icon": "/img_about/gtech.svg"
+    },
+    {
+      "role": "B.Sc. Computer Science",
+      "company": "Guru Nanak College",
+      "type": "Student",
+      "description": [
+        "Pursuing undergraduate studies with focus on programming, databases, and web development."
+      ],
+      "period": "Jun 2024 \u2013 Jun 2027",
+      "location": "Chennai, India",
+      "workType": "On-site",
+      "icon": "/img_about/gnc.svg"
+    },
+    {
+      "role": "Higher Secondary Education",
+      "company": "Agurchand Manmull Jain School",
+      "type": "Student",
+      "description": [
+        "Completed coursework in Computer Science stream with focus on foundational programming and mathematics."
+      ],
+      "period": "Jun 2022 \u2013 Jun 2024",
+      "location": "Chennai, India",
+      "workType": "On-site",
+      "icon": "/img_about/amjs.svg"
     }
   ]
 }

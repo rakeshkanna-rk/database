@@ -1,38 +1,38 @@
 {
   "projects": [
     {
-      "id": "g-tech",
-      "title": "G-TECH",
-      "image": "/images/image1.png",
-      "url": "http://generalizedtechnology.vercel.app/",
+      "id": "travel-guy",
+      "title": "Travel Guy",
+      "image": "https://rakeshkanna-rk.github.io/database/portfolio/img/projects/travelguy.png",
+      "url": "https://www.behance.net/gallery/188872021/Travel-Guy-Tourism-Website-Landing-Page-Design",
       "type": "website"
     },
     {
-      "id": "monishwar-1",
-      "title": "MONISHWAR",
-      "image": "/images/image2.png",
-      "url": "https://monishwar.vercel.app/",
+      "id": "vision-pro",
+      "title": "Instagram for Vision Pro",
+      "image": "https://rakeshkanna-rk.github.io/database/portfolio/img/projects/visionpro.png",
+      "url": "https://www.behance.net/gallery/178698351/Apple-Vision-Pro-Instagram-UI",
       "type": "website"
     },
     {
-      "id": "monishwar-2",
-      "title": "MONISHWAR",
-      "image": "/images/image3.png",
-      "url": "https://monishwar.com",
+      "id": "education-center",
+      "title": "Education Center",
+      "image": "https://rakeshkanna-rk.github.io/database/portfolio/img/projects/educenter.png",
+      "url": "https://www.behance.net/gallery/178610739/Education-Center-A-Learning-app-Case-study",
       "type": "website"
     },
     {
-      "id": "monishwar-3",
-      "title": "MONISHWAR",
-      "image": "/images/image1.png",
-      "url": "https://monishwar.com",
+      "id": "code-editor",
+      "title": "Code Editor",
+      "image": "https://rakeshkanna-rk.github.io/database/portfolio/img/projects/codeeditor.png",
+      "url": "https://rakeshkanna-rk.github.io/Code-Editor/",
       "type": "website"
     },
     {
-      "id": "monishwar-4",
-      "title": "MONISHWAR",
-      "image": "/images/image1.png",
-      "url": "https://monishwar.com",
+      "id": "darkest",
+      "title": "DarkEST",
+      "image": "https://rakeshkanna-rk.github.io/database/portfolio/img/projects/darkest.png",
+      "url": "https://github.com/rakeshkanna-rk/darkest",
       "type": "website"
     }
   ],
