@@ -1,0 +1,51 @@
+[
+  {
+    "title": "LinkedIn",
+    "subtitle": "Professional network and case studies",
+    "url": "https://linkedin.com/in/rakeshkannas",
+    "icon": "linkedin.svg",
+    "color": "#0077B5"
+  },
+  {
+    "title": "Behance",
+    "subtitle": "Creative Design and Stories",
+    "url": "https://behance.net/rakesh_kanna",
+    "icon": "behance.svg",
+    "color": "#0057FF"
+  },
+  {
+    "title": "Instagram",
+    "subtitle": "Daily design inspiration and process",
+    "url": "https://instagram.com/rakesh_kanna.creates",
+    "icon": "instagram.svg",
+    "color": "#E4405F"
+  },
+  {
+    "title": "GitHub",
+    "subtitle": "Open source projects and experiments",
+    "url": "https://github.com/rakeshkanna-rk",
+    "icon": "github.svg",
+    "color": "#9ca3af"
+  },
+  {
+    "title": "Medium",
+    "subtitle": "Writings and design thoughts",
+    "url": "https://medium.com/@rakeshkanna0108",
+    "icon": "medium.svg",
+    "color": "#00ab6c"
+  },
+  {
+    "title": "YouTube",
+    "subtitle": "Design process and tutorials",
+    "url": "https://youtube.com/@rakeshkanna",
+    "icon": "youtube.svg",
+    "color": "#FF0000"
+  },
+  {
+    "title": "Resume",
+    "subtitle": "Download my CV",
+    "url": "https://rakeshkanna-rk.github.io/database/new_portfolio/resume.pdf",
+    "icon": "resume.svg",
+    "color": "#6366f1"
+  }
+]
