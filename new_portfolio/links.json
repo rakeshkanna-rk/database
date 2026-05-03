@@ -1,5 +1,19 @@
 [
   {
+    "title": "Mail",
+    "subtitle": "Connect with me on mail",
+    "url": "mailto:rakeshkanna0108@gmail.com",
+    "icon": "linkedin.svg",
+    "color": "#FF6600"
+  },
+  {
+    "title": "Whatsapp",
+    "subtitle": "Chat with me on Whatsapp",
+    "url": "https://wa.me/918754247760",
+    "icon": "whatsapp.svg",
+    "color": "#25D366"
+  },
+  {
     "title": "LinkedIn",
     "subtitle": "Professional network and case studies",
     "url": "https://linkedin.com/in/rakeshkannas",
@@ -14,13 +28,6 @@
     "color": "#0057FF"
   },
   {
-    "title": "Instagram",
-    "subtitle": "Daily design inspiration and process",
-    "url": "https://instagram.com/rakesh_kanna.creates",
-    "icon": "instagram.svg",
-    "color": "#E4405F"
-  },
-  {
     "title": "GitHub",
     "subtitle": "Open source projects and experiments",
     "url": "https://github.com/rakeshkanna-rk",
@@ -33,6 +40,13 @@
     "url": "https://medium.com/@rakeshkanna0108",
     "icon": "medium.svg",
     "color": "#00ab6c"
+  },
+  {
+    "title": "Instagram",
+    "subtitle": "Daily design inspiration and process",
+    "url": "https://instagram.com/rakesh_kanna.creates",
+    "icon": "instagram.svg",
+    "color": "#E4405F"
   },
   {
     "title": "YouTube",
