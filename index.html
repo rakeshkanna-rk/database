@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RK Cloud — Asset Database</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #030303;
+            --accent: #33007E;
+            --glass: rgba(255, 255, 255, 0.05);
+            --glass-border: rgba(255, 255, 255, 0.1);
+        }
+
+        body {
+            background-color: var(--bg);
+            color: #fff;
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .font-grotesk { font-family: 'Space Grotesk', sans-serif; }
+
+        .glass {
+            background: var(--glass);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid var(--glass-border);
+        }
+
+        .glass-hover:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+            transition: all 0.3s ease;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: var(--glass-border);
+            border-radius: 10px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .loader {
+            width: 48px;
+            height: 48px;
+            border: 5px solid #FFF;
+            border-bottom-color: var(--accent);
+            border-radius: 50%;
+            display: inline-block;
+            box-sizing: border-box;
+            animation: rotation 1s linear infinite;
+        }
+
+        @keyframes rotation {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .breadcrumb-item:not(:last-child)::after {
+            content: '/';
+            margin: 0 8px;
+            opacity: 0.3;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+    <!-- Header -->
+    <header class="h-20 border-b border-white/10 flex items-center justify-between px-6 md:px-12 sticky top-0 bg-black/80 backdrop-blur-xl z-50">
+        <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-accent rounded-xl flex items-center justify-center">
+                <i data-lucide="database" class="w-6 h-6 text-white"></i>
+            </div>
+            <h1 class="text-xl font-bold tracking-tight font-grotesk uppercase">RK<span class="text-accent">Cloud</span></h1>
+        </div>
+
+        <div class="hidden md:flex flex-1 max-w-xl mx-12">
+            <div class="relative w-full">
+                <i data-lucide="search" class="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-white/40"></i>
+                <input 
+                    type="text" 
+                    id="searchInput"
+                    placeholder="Search assets..." 
+                    class="w-full bg-white/5 border border-white/10 rounded-full py-2.5 pl-12 pr-6 focus:outline-none focus:border-accent/50 focus:ring-1 focus:ring-accent/20 transition-all"
+                >
+            </div>
+        </div>  
+    </header>
+
+    <div class="flex flex-1 overflow-hidden">
+        <!-- Main Content -->
+        <main class="flex-1 overflow-y-auto custom-scrollbar p-6 md:p-10">
+            <!-- Breadcrumbs -->
+            <div id="breadcrumbs" class="flex items-center text-sm font-medium mb-8 overflow-x-auto whitespace-nowrap">
+                <!-- Injected via JS -->
+            </div>
+
+            <!-- Loading State -->
+            <div id="loader" class="hidden flex flex-col items-center justify-center py-20 gap-4">
+                <span class="loader"></span>
+                <p class="text-white/40 animate-pulse font-grotesk tracking-widest uppercase text-xs">Accessing Database...</p>
+            </div>
+
+            <!-- Empty State -->
+            <div id="emptyState" class="hidden flex flex-col items-center justify-center py-20 text-center">
+                <div class="w-20 h-20 bg-white/5 rounded-3xl flex items-center justify-center mb-6">
+                    <i data-lucide="folder-open" class="w-10 h-10 text-white/20"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">No files found</h3>
+                <p class="text-white/40 max-w-xs">This directory is currently empty or doesn't exist.</p>
+            </div>
+
+            <!-- File Grid -->
+            <div id="fileGrid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 md:gap-6">
+                <!-- Injected via JS -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Preview Modal -->
+    <div id="previewModal" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 md:p-10">
+        <div class="absolute inset-0 bg-black/90 backdrop-blur-xl transition-opacity" onclick="closePreview()"></div>
+        <div class="glass max-w-5xl w-full max-h-full overflow-hidden rounded-[40px] relative flex flex-col shadow-2xl scale-in">
+            <div class="p-6 border-b border-white/10 flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <div id="modalIcon" class="w-8 h-8 rounded-lg flex items-center justify-center bg-white/5"></div>
+                    <h3 id="modalTitle" class="text-lg font-semibold truncate max-w-[200px] md:max-w-md">File Preview</h3>
+                </div>
+                <div class="flex items-center gap-2">
+                    <button id="copyLinkBtn" class="flex items-center gap-2 px-4 py-2 hover:bg-accent hover:text-white bg-white/5 text-white/60 rounded-full text-sm font-medium transition-all group">
+                        <i data-lucide="copy" class="w-4 h-4"></i>
+                        Copy Raw Link
+                    </button>
+                    <button onclick="closePreview()" class="p-2 hover:bg-white/10 rounded-full transition-colors">
+                        <i data-lucide="x" class="w-6 h-6"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="modalContent" class="flex-1 overflow-auto p-4 md:p-10 flex items-center justify-center bg-black/40">
+                <!-- Content injected via JS -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const REPO_OWNER = 'rakeshkanna-rk';
+        const REPO_NAME = 'database';
+        const BRANCH = 'main';
+        
+        let currentPath = '';
+        let allItems = [];
+
+        async function fetchContents(path = '') {
+            const loader = document.getElementById('loader');
+            const fileGrid = document.getElementById('fileGrid');
+            const emptyState = document.getElementById('emptyState');
+            
+            loader.classList.remove('hidden');
+            fileGrid.classList.add('hidden');
+            emptyState.classList.add('hidden');
+            
+            try {
+                const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}?ref=${BRANCH}`);
+                if (!response.ok) throw new Error('Failed to fetch');
+                
+                const data = await response.json();
+                allItems = Array.isArray(data) ? data : [data];
+                
+                // Sort folders first
+                allItems.sort((a, b) => {
+                    if (a.type === b.type) return a.name.localeCompare(b.name);
+                    return a.type === 'dir' ? -1 : 1;
+                });
+
+                renderBreadcrumbs(path);
+                renderGrid(allItems);
+                
+                if (allItems.length === 0) emptyState.classList.remove('hidden');
+                else fileGrid.classList.remove('hidden');
+                
+            } catch (error) {
+                console.error(error);
+                emptyState.classList.remove('hidden');
+            } finally {
+                loader.classList.add('hidden');
+            }
+        }
+
+        function renderBreadcrumbs(path) {
+            const container = document.getElementById('breadcrumbs');
+            const parts = path.split('/').filter(p => p);
+            
+            let html = `
+                <button onclick="navigateTo('')" class="breadcrumb-item hover:text-accent transition-colors flex items-center gap-1">
+                    <i data-lucide="home" class="w-4 h-4"></i>
+                    Database
+                </button>
+            `;
+            
+            let currentBuildPath = '';
+            parts.forEach((part, index) => {
+                currentBuildPath += (index === 0 ? '' : '/') + part;
+                const isLast = index === parts.length - 1;
+                html += `
+                    <button 
+                        onclick="navigateTo('${currentBuildPath}')" 
+                        class="breadcrumb-item hover:text-accent transition-colors ${isLast ? 'text-accent' : 'text-white/60'}"
+                    >
+                        ${part}
+                    </button>
+                `;
+            });
+            
+            container.innerHTML = html;
+            lucide.createIcons();
+        }
+
+        function getFileIcon(file) {
+            if (file.type === 'dir') return 'folder';
+            const ext = file.name.split('.').pop().toLowerCase();
+            const images = ['png', 'jpg', 'jpeg', 'gif', 'svg', 'webp', 'avif'];
+            const videos = ['mp4', 'webm', 'ogg', 'mov'];
+            const code = ['json', 'ts', 'js', 'html', 'css', 'py', 'md'];
+            
+            if (images.includes(ext)) return 'image';
+            if (videos.includes(ext)) return 'video';
+            if (code.includes(ext)) return 'file-code';
+            return 'file-text';
+        }
+
+        function renderGrid(items) {
+            const grid = document.getElementById('fileGrid');
+            grid.innerHTML = items.map(item => {
+                const icon = getFileIcon(item);
+                const isDir = item.type === 'dir';
+                
+                return `
+                    <div 
+                        onclick="${isDir ? `navigateTo('${item.path}')` : `openPreview('${item.path}', '${item.name}')`}"
+                        class="glass rounded-3xl p-4 flex flex-col items-center text-center cursor-pointer glass-hover animate-fade-in group"
+                    >
+                        <div class="w-full aspect-square rounded-2xl bg-white/5 mb-4 flex items-center justify-center relative overflow-hidden">
+                            ${!isDir && isImage(item.name) ? 
+                                `<img src="https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${BRANCH}/${item.path}" class="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity">` : 
+                                `<i data-lucide="${icon}" class="w-10 h-10 ${isDir ? 'text-accent' : 'text-white/20'}"></i>`
+                            }
+                            ${isDir ? `<div class="absolute inset-0 bg-accent/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>` : ''}
+                        </div>
+                        <span class="text-sm font-medium truncate w-full px-2">${item.name}</span>
+                        <span class="text-[10px] text-white/30 mt-1 uppercase tracking-wider">${isDir ? 'Folder' : formatSize(item.size)}</span>
+                    </div>
+                `;
+            }).join('');
+            lucide.createIcons();
+        }
+
+        function isImage(name) {
+            return ['png', 'jpg', 'jpeg', 'gif', 'svg', 'webp', 'avif'].includes(name.split('.').pop().toLowerCase());
+        }
+
+        function isVideo(name) {
+            return ['mp4', 'webm', 'ogg', 'mov'].includes(name.split('.').pop().toLowerCase());
+        }
+
+        function formatSize(bytes) {
+            if (!bytes) return '';
+            const sizes = ['B', 'KB', 'MB', 'GB', 'TB'];
+            if (bytes === 0) return '0 B';
+            const i = parseInt(Math.floor(Math.log(bytes) / Math.log(1024)));
+            return Math.round(bytes / Math.pow(1024, i), 2) + ' ' + sizes[i];
+        }
+
+        function navigateTo(path) {
+            currentPath = path;
+            fetchContents(path);
+        }
+
+        function openPreview(path, name) {
+            const modal = document.getElementById('previewModal');
+            const content = document.getElementById('modalContent');
+            const title = document.getElementById('modalTitle');
+            const icon = document.getElementById('modalIcon');
+            const rawUrl = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${BRANCH}/${path}`;
+            
+            title.innerText = name;
+            icon.innerHTML = `<i data-lucide="${getFileIcon({name, type: 'file'})}" class="w-4 h-4"></i>`;
+            
+            if (isImage(name)) {
+                content.innerHTML = `<img src="${rawUrl}" class="max-w-full max-h-full object-contain rounded-xl shadow-2xl">`;
+            } else if (isVideo(name)) {
+                content.innerHTML = `<video controls autoplay class="max-w-full max-h-full rounded-xl shadow-2xl"><source src="${rawUrl}" type="video/mp4"></video>`;
+            } else {
+                content.innerHTML = `
+                    <div class="flex flex-col items-center gap-6">
+                        <div class="w-24 h-24 bg-white/5 rounded-3xl flex items-center justify-center">
+                            <i data-lucide="file-text" class="w-12 h-12 text-white/20"></i>
+                        </div>
+                        <p class="text-white/60 font-grotesk tracking-widest uppercase text-xs">Preview not available for this file type</p>
+                        <a href="${rawUrl}" target="_blank" class="px-6 py-3 bg-white/10 hover:bg-white/20 rounded-full transition-all flex items-center gap-2">
+                            <i data-lucide="external-link" class="w-4 h-4"></i>
+                            Open Original
+                        </a>
+                    </div>
+                `;
+            }
+            
+            document.getElementById('copyLinkBtn').onclick = () => {
+                navigator.clipboard.writeText(rawUrl);
+                const btn = document.getElementById('copyLinkBtn');
+                const originalText = btn.innerHTML;
+                btn.innerHTML = `<i data-lucide="check" class="w-4 h-4"></i> Link Copied!`;
+                btn.classList.replace('bg-white/5', 'bg-green-500/20');
+                btn.classList.replace('text-white/60', 'text-green-500');
+                lucide.createIcons();
+                setTimeout(() => {
+                    btn.innerHTML = originalText;
+                    btn.classList.replace('bg-green-500/20', 'bg-white/5');
+                    btn.classList.replace('text-green-500', 'text-white/60');
+                    lucide.createIcons();
+                }, 2000);
+            };
+
+            modal.classList.remove('hidden');
+            lucide.createIcons();
+        }
+
+        function closePreview() {
+            document.getElementById('previewModal').classList.add('hidden');
+            document.getElementById('modalContent').innerHTML = '';
+        }
+
+        // Search logic
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            const term = e.target.value.toLowerCase();
+            const filtered = allItems.filter(item => item.name.toLowerCase().includes(term));
+            renderGrid(filtered);
+        });
+
+        // Initialize
+        fetchContents();
+    </script>
+</body>
+</html>
