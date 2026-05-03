@@ -33,15 +33,17 @@
       "title": "Education Center",
       "image": [
         "/img_works/educenter/educenter.png",
-        "/img_works/educenter/img1.png",
-        "/img_works/educenter/img2.png",
-        "/img_works/educenter/img3.jpg",
-        "/img_works/educenter/img4.jpg",
-        "/img_works/educenter/img5.jpg",
-        "/img_works/educenter/img6.jpg",
-        "/img_works/educenter/img7.jpg",
-        "/img_works/educenter/img8.jpg",
-        "/img_works/educenter/img9.jpg"
+        "/img_works/educenter/img1.webp",
+        "/img_works/educenter/img2.webp",
+        "/img_works/educenter/img3.webp",
+        "/img_works/educenter/img4.webp",
+        "/img_works/educenter/img5.webp",
+        "/img_works/educenter/img6.webp",
+        "/img_works/educenter/img7.webp",
+        "/img_works/educenter/img8.webp",
+        "/img_works/educenter/img9.webp",
+        "/img_works/educenter/img10.webp",
+        "/img_works/educenter/img11.webp"
       ],
       "url": "https://www.behance.net/gallery/178610739/Education-Center-A-Learning-app-Case-study",
       "type": "carousel"
@@ -75,45 +77,54 @@
   ],
   "posters": [
     {
-      "id": "vibrance",
-      "title": "VIBRANCE",
-      "image": "/images/image1.png",
+      "id": "godfather",
+      "title": "THE GODFATHER",
+      "image": [
+        "/img_works/_posters/godfather/godfather.png",
+        "/img_works/_posters/godfather/img1.webp",
+        "/img_works/_posters/godfather/img2.webp",
+        "/img_works/_posters/godfather/img3.webp",
+        "/img_works/_posters/godfather/img4.webp",
+        "/img_works/_posters/godfather/img5.webp",
+        "/img_works/_posters/godfather/img6.webp"
+      ],
+      "url": "https://www.behance.net/gallery/188872021/Travel-Guy-Tourism-Website-Landing-Page-Design",
       "category": "POSTER DESIGN",
       "type": "poster"
     },
     {
-      "id": "neon-nights",
-      "title": "NEON NIGHTS",
-      "image": "/images/image2.png",
-      "category": "DIGITAL ART",
+      "id": "LUC",
+      "title": "Lokesh Cinematic Universe",
+      "image": "/img_works/_posters/luc.png",
+      "category": "MOVIE POSTER DESIGN",
       "type": "poster"
     },
     {
-      "id": "minimalism",
-      "title": "MINIMALISM",
-      "image": "/images/image3.png",
-      "category": "BRANDING",
+      "id": "porshe911",
+      "title": "Porsche 911 GT3 RS",
+      "image": "/img_works/_posters/porshe911.png",
+      "category": "CAR POSTER",
       "type": "poster"
     },
     {
-      "id": "concrete",
-      "title": "CONCRETE",
-      "image": "/images/image2.png",
-      "category": "POSTER DESIGN",
+      "id": "F1",
+      "title": "FORMULA 1",
+      "image": "/img_works/_posters/f1.png",
+      "category": "CAR POSTER",
       "type": "poster"
     },
     {
-      "id": "futurism",
-      "title": "FUTURISM",
-      "image": "/images/image3.png",
-      "category": "EXPERIMENTAL",
+      "id": "bugatti",
+      "title": "BUGATTI",
+      "image": "/img_works/_posters/bugatti.png",
+      "category": "CAR POSTER",
       "type": "poster"
     },
     {
-      "id": "retro-grade",
-      "title": "RETRO GRADE",
-      "image": "/images/image1.png",
-      "category": "POSTER DESIGN",
+      "id": "mclaren",
+      "title": "MCLAREN",
+      "image": "/img_works/_posters/mclaren.png",
+      "category": "CAR POSTER",
       "type": "poster"
     }
   ]
