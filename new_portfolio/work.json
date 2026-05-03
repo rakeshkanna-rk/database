@@ -95,19 +95,19 @@
     {
       "id": "LUC",
       "title": "Lokesh Cinematic Universe",
-      "image": "/img_works/_posters/luc.png",
+      "image": "/img_works/_posters/lcu.png",
       "category": "MOVIE POSTER DESIGN",
       "type": "poster"
     },
     {
-      "id": "porshe911",
+      "id": "porsche911",
       "title": "Porsche 911 GT3 RS",
-      "image": "/img_works/_posters/porshe911.png",
+      "image": "/img_works/_posters/porsche911.png",
       "category": "CAR POSTER",
       "type": "poster"
     },
     {
-      "id": "F1",
+      "id": "f1",
       "title": "FORMULA 1",
       "image": "/img_works/_posters/f1.png",
       "category": "CAR POSTER",
