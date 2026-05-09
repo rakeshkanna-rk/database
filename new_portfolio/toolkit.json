@@ -3,6 +3,7 @@
     { "name": "Figma", "img": "/img_toolkit/figma.svg" },
     { "name": "Framer", "img": "/img_toolkit/framer.svg" },
     { "name": "Canva", "img": "/img_toolkit/canva.svg" },
+    { "name": "Wix", "img": "/img_toolkit/wix.svg" },
     { "name": "Photoshop", "img": "/img_toolkit/photoshop.svg" },
     { "name": "Node.js", "img": "/img_toolkit/nodejs.svg" },
     { "name": "Git", "img": "/img_toolkit/git.svg" },
@@ -15,7 +16,7 @@
   "skills": [
     {
       "category": "Design",
-      "items": ["UI/UX Design", "Brand Identity", "Design Systems", "Prototyping", "Product Design","Visual Design", "Typography"]
+      "items": ["UI UX Design", "Graphic Design", "Brand Identity", "Design Systems", "Prototyping", "Product Design","Visual Design", "Typography"]
     },
     {
       "category": "Development",

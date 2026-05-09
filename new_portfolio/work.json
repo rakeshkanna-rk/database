@@ -76,6 +76,17 @@
       ],
       "url": "https://marketplace.visualstudio.com/items?itemName=RakeshKannaS.darkest-theme",
       "type": "carousel"
+    },
+    {
+      "id": "glass-morphism-icons",
+      "title": "Glass Morphism Icons",
+      "image": [
+        "/img_works/glassicons/glassicons.png",
+        "/img_works/glassicons/icons.svg",
+        "/img_works/glassicons/cta.svg"
+      ],
+      "url": "https://www.behance.net/gallery/193911215/Glass-Morphism-Icons",
+      "type": "carousel"
     }
   ],
   "posters": [
