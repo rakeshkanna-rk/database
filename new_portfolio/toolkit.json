@@ -2,7 +2,7 @@
   "tools": [
     { "name": "Figma", "img": "/img_toolkit/figma.svg" },
     { "name": "Framer", "img": "/img_toolkit/framer.svg" },
-    { "name": "Canva", "img": "/img_toolkit/canva.svg" },
+    { "name": "Canva", "img": "/img_toolkit/canva.svg" }, 
     { "name": "Wix", "img": "/img_toolkit/wix.svg" },
     { "name": "Photoshop", "img": "/img_toolkit/photoshop.svg" },
     { "name": "Node.js", "img": "/img_toolkit/nodejs.svg" },
