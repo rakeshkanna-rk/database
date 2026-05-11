@@ -87,6 +87,20 @@
       ],
       "url": "https://www.behance.net/gallery/193911215/Glass-Morphism-Icons",
       "type": "carousel"
+    },
+    {
+      "id": "time",
+      "title": "TIME",
+      "image": [
+        "/img_works/time/time.png",
+        "/img_works/time/img1.webp",
+        "/img_works/time/img2.webp",
+        "/img_works/time/img3.webp",
+        "/img_works/time/img4.webp",
+        "/img_works/time/img5.webp"
+      ],
+      "url": "https://www.behance.net/gallery/186958023/TIME-Schedule-and-Meeting-App",
+      "type": "carousel"
     }
   ],
   "posters": [
