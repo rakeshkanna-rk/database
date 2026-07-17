@@ -1,6 +1,18 @@
 {
   "projects": [
     {
+      "id": "mic-and-mac",
+      "title":"Mic & Mac",
+      "image": [
+        "/img_works/micandmac/micandmac.png",
+        "/img_works/micandmac/img1.webp",
+        "/img_works/micandmac/img2.webp",
+        "/img_works/micandmac/img3.webp"
+      ],
+      "url":"https://www.behance.net/gallery/252714299/Mic-Mac",
+      "type":"carousel"
+    },
+    {
       "id": "G-Tech",
       "title": "G-Tech",
       "image": "/img_works/gtech.png",
