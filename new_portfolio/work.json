@@ -27,6 +27,22 @@
       "type": "website"
     },
     {
+      "id": "eventure",
+      "title":"Eventure",
+      "image": [
+        "/img_works/eventure/eventure.png",
+        "/img_works/eventure/img1.webp",
+        "/img_works/eventure/img2.webp",
+        "/img_works/eventure/img3.webp",
+        "/img_works/eventure/img4.webp",
+        "/img_works/eventure/img5.webp",
+        "/img_works/eventure/img6.webp",
+        "/img_works/eventure/img7.webp"
+      ],
+      "url": "https://www.behance.net/gallery/253999607/Eventure-An-Event-Booking-Social-Connect-App",
+      "type": "carousel"
+    },
+    {
       "id": "travel-guy",
       "title": "Travel Guy",
       "image": [
