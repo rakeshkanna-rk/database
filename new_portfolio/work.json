@@ -13,20 +13,6 @@
       "type":"carousel"
     },
     {
-      "id": "G-Tech",
-      "title": "G-Tech",
-      "image": "/img_works/gtech.png",
-      "url": "https://generalizedtechnology.vercel.app/",
-      "type": "website"
-    },
-    {
-      "id": "thiru",
-      "title": "Thiruvasagam Editor",
-      "image": "/img_works/thiru.png",
-      "url": "https://editorthiruvasagam.vercel.app/",
-      "type": "website"
-    },
-    {
       "id": "eventure",
       "title":"Eventure",
       "image": [
@@ -201,6 +187,24 @@
       "image": "/img_works/_posters/mclaren.png",
       "category": "CAR POSTER",
       "type": "poster"
+    }
+  ],
+  "vibeDevelops": [
+    {
+      "id": "G-Tech",
+      "title": "G-Tech",
+      "image": "/img_works/gtech.png",
+      "url": "https://generalizedtechnology.vercel.app/",
+      "type": "website",
+      "showOnHome": true
+    },
+    {
+      "id": "thiru",
+      "title": "Thiruvasagam Editor",
+      "image": "/img_works/thiru.png",
+      "url": "https://editorthiruvasagam.vercel.app/",
+      "type": "website",
+      "showOnHome": true
     }
   ]
 }
