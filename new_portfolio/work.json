@@ -191,6 +191,22 @@
   ],
   "vibeDevelops": [
     {
+      "id": "aura-player",
+      "title": "Aura Player",
+      "image": "/img_works/auraplayer/aura_player.png",
+      "url": "https://auraplayer-offline.vercel.app/",
+      "type": "website",
+      "showOnHome": true
+    },
+    {
+      "id": "content-studio",
+      "title": "Content Studio",
+      "image": "/img_works/contentstudio/content_studio.png",
+      "url": "https://content-calendar-2.ai.studio/",
+      "type": "website",
+      "showOnHome": true
+    },
+    {
       "id": "G-Tech",
       "title": "G-Tech",
       "image": "/img_works/gtech.png",
