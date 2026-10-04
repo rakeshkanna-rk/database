@@ -1,46 +1,5 @@
 {
   "aboutText": "I design digital experiences with a strong focus on clarity, visual consistency, and how things feel in use. My work is rooted in UI/UX and brand thinking, where every interface is shaped to be simple, structured, and easy to navigate. I pay close attention to spacing, typography, and visual rhythm to make sure each product feels cohesive from end to end.\n\nI work closely with early-stage ideas and growing products, shaping both the interface and the brand as they evolve. From defining visual direction to building scalable design systems, I focus on creating work that holds together across screens and touchpoints. Currently, I lead design and brand experience at Mergex, where I handle the overall direction of product design and ensure consistency across everything we build.",
-  "experiences": [
-    {
-      "role": "Head of Design",
-      "company": "MergeX",
-      "type": "Full Time",
-      "description": [
-        "Designed and implemented user interfaces and user experiences for a media-tech startup.",
-        "Collaborated with cross-functional teams to create visually appealing and user-friendly interfaces."
-      ],
-      "period": "Sep 2025 – Nov 2025",
-      "location": "Tamil Nadu, India",
-      "workType": "Remote",
-      "icon": "/img_about/mergex.svg"
-    },
-    {
-      "role": "Graphics Designer & Web Designer",
-      "company": "Runverve",
-      "type": "Internship",
-      "description": [
-        "Designed pitch decks, standees, print materials, and responsive websites using Wix for a sports-tech startup incubated at IITM.",
-        "Supported branding and marketing efforts through creative visual assets."
-      ],
-      "period": "Feb 2025 – Jun 2025",
-      "location": "Tamil Nadu, India",
-      "workType": "Remote",
-      "icon": "/img_about/runverve.svg"
-    },
-    {
-      "role": "Graphic Design Lead",
-      "company": "G-Tech (College Club)",
-      "type": "Part Time",
-      "description": [
-        "Led creative direction for college cultural fest LYNX 25' and other event designs.",
-        "Collaborated with event teams to produce posters, banners, and social media content."
-      ],
-      "period": "Apr 2025 – Present",
-      "location": "Chennai, India",
-      "workType": "On-site",
-      "icon": "/img_about/gtech.svg"
-    }
-  ],
   "education": [
     {
       "degree": "B.Sc. Computer Science",
@@ -70,7 +29,7 @@
       "description": "Foundations of UX design including user research, wireframing, prototyping, and usability testing.",
       "date": "2024",
       "icon": "/img_about/google.svg",
-      "credential": ""
+      "credential": "/pdf/cert-google-ux.pdf"
     },
     {
       "title": "Graphic Design Specialization",
@@ -78,7 +37,7 @@
       "description": "Mastered visual communication, typography, color theory, and brand identity design.",
       "date": "2024",
       "icon": "/img_about/canva.svg",
-      "credential": ""
+      "credential": "/pdf/cert-canva-design.pdf"
     },
     {
       "title": "Python Programming",
@@ -86,7 +45,7 @@
       "description": "Completed hands-on Python curriculum covering data structures, algorithms, and scripting.",
       "date": "2023",
       "icon": "/img_about/freecodecamp.svg",
-      "credential": ""
+      "credential": "/pdf/cert-python.pdf"
     }
   ]
 }
