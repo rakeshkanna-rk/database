@@ -1,10 +1,10 @@
 [
   {
-    "id": "runverve",
-    "name": "Runverve",
-    "role": "Graphics & Web Designer",
-    "logo": "/brands/images/runverve.svg",
-    "markdown": "brands/runverve.md"
+    "id": "tiva",
+    "name": "TIVA",
+    "role": "Brand & Product Design",
+    "logo": "/brands/images/tiva.svg",
+    "markdown": "brands/tiva.md"
   },
   {
     "id": "mergex",
@@ -17,14 +17,14 @@
     "id": "mic-and-mac",
     "name": "Mic & Mac",
     "role": "Branding & Packaging",
-    "logo": "/img_about/micandmac.svg",
+    "logo": "/brands/images/micandmac.svg",
     "markdown": "brands/mic-and-mac.md"
   },
   {
-    "id": "tiva",
-    "name": "Tiva",
-    "role": "Brand & Product Design",
-    "logo": "/brands/images/tiva.svg",
-    "markdown": "brands/tiva.md"
+    "id": "runverve",
+    "name": "Runverve",
+    "role": "Graphics & Web Designer",
+    "logo": "/brands/images/runverve.svg",
+    "markdown": "brands/runverve.md"
   }
 ]
