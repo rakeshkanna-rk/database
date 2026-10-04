@@ -1,6 +1,3 @@
-## TIVA Creatives
-**Co-Founder & Creative Director** 
-
 Sep 2026 – Present
 
 TIVA Creatives is a creative venture focused on helping brands communicate through visual content and design. Its work includes creative production, video editing, and brand-focused content, with an emphasis on turning ideas into visuals that fit each brand’s identity.

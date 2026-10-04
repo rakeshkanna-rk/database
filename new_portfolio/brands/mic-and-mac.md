@@ -1,7 +1,4 @@
-## Mic & Mac
-**Packaging & Brand Designer**
-
-2025
+June 2026
 
 Mic & Mac is a skincare brand offering products such as cold-pressed soap bars and nourishing lip balms. Its product range focuses on everyday skincare, using botanical ingredients and packaging designed to communicate freshness and product identity.
 

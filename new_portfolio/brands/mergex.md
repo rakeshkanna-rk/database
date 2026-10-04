@@ -1,6 +1,3 @@
-## Mergex
-**Head of Design**
-
 Jan 2026 – Sep 2026
 
 Mergex is a digital solutions and technology company working across software development, AI solutions, and digital transformation. My role focused on bringing a consistent design direction to the company's products and brand touchpoints.

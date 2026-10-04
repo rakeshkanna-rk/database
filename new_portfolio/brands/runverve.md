@@ -1,6 +1,3 @@
-## RUNVERVE
-**Graphic Design & Web Design Intern**
-
 Feb 2025 – Jun 2025
 
 RUNVERVE is an innovation and startup environment associated with the IIT Madras ecosystem, focused on building impactful brand experiences and digital products.
