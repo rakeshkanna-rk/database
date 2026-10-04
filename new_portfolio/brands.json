@@ -2,28 +2,28 @@
   {
     "id": "tiva",
     "name": "TIVA",
-    "role": "Brand & Product Design",
+    "role": "Creative Agency",
     "logo": "/brands/images/tiva.svg",
     "markdown": "brands/tiva.md"
   },
   {
     "id": "mergex",
     "name": "MergeX",
-    "role": "Head of Design",
+    "role": "Information Technology",
     "logo": "/brands/images/mergex.svg",
     "markdown": "brands/mergex.md"
   },
   {
     "id": "mic-and-mac",
     "name": "Mic & Mac",
-    "role": "Branding & Packaging",
+    "role": "Health & Care",
     "logo": "/brands/images/micandmac.svg",
     "markdown": "brands/mic-and-mac.md"
   },
   {
     "id": "runverve",
     "name": "Runverve",
-    "role": "Graphics & Web Designer",
+    "role": "Sports & Lifestyle",
     "logo": "/brands/images/runverve.svg",
     "markdown": "brands/runverve.md"
   }

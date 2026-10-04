@@ -15,5 +15,4 @@ TIVA Creatives is a creative venture focused on helping brands communicate throu
 
 - Help shape the creative process from initial ideas to final deliverables.
 
-[![linkedin](https://www.google.com/s2/favicons?domain=https://www.linkedin.com\&sz=32)](https://www.linkedin.com/company/tivacreatives/)
-[![instagram](https://www.google.com/s2/favicons?domain=https://www.instagram.com\&sz=32)](https://www.instagram.com/tiva.creatives/)
+[![linkedin](https://www.google.com/s2/favicons?domain=https://www.linkedin.com\&sz=32)](https://www.linkedin.com/company/tivacreatives/) [![instagram](https://www.google.com/s2/favicons?domain=https://www.instagram.com\&sz=32)](https://www.instagram.com/tiva.creatives/)
