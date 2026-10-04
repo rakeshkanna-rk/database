@@ -24,28 +24,20 @@
   ],
   "certifications": [
     {
-      "title": "UI/UX Design Fundamentals",
-      "issuer": "Google",
+      "title": "Introduction to User Experience Design",
+      "issuer": "Georgia Institute of Technology",
       "description": "Foundations of UX design including user research, wireframing, prototyping, and usability testing.",
-      "date": "2024",
-      "icon": "/img_about/google.svg",
-      "credential": "/pdf/cert-google-ux.pdf"
+      "date": "Mar 2023",
+      "icon": "/certifications/gatech.jpg",
+      "credential": "/pdf/uiux.pdf"
     },
     {
-      "title": "Graphic Design Specialization",
-      "issuer": "Canva",
-      "description": "Mastered visual communication, typography, color theory, and brand identity design.",
-      "date": "2024",
-      "icon": "/img_about/canva.svg",
-      "credential": "/pdf/cert-canva-design.pdf"
-    },
-    {
-      "title": "Python Programming",
-      "issuer": "freeCodeCamp",
-      "description": "Completed hands-on Python curriculum covering data structures, algorithms, and scripting.",
-      "date": "2023",
-      "icon": "/img_about/freecodecamp.svg",
-      "credential": "/pdf/cert-python.pdf"
+      "title": "The Fundamentals of Digital Marketing",
+      "issuer": "Google",
+      "description": "Foundations of digital marketing including SEO, content marketing, and analytics.",
+      "date": "May 2023",
+      "icon": "/img_about/google.jpg",
+      "credential": "/pdf/digitalunlocked_certificate.pdf"
     }
   ]
 }
