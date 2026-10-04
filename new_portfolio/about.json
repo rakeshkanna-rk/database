@@ -9,7 +9,7 @@
         "Designed and implemented user interfaces and user experiences for a media-tech startup.",
         "Collaborated with cross-functional teams to create visually appealing and user-friendly interfaces."
       ],
-      "period": "Sep 2025 \u2013 Nov 2025",
+      "period": "Sep 2025 – Nov 2025",
       "location": "Tamil Nadu, India",
       "workType": "Remote",
       "icon": "/img_about/mergex.svg"
@@ -22,7 +22,7 @@
         "Designed pitch decks, standees, print materials, and responsive websites using Wix for a sports-tech startup incubated at IITM.",
         "Supported branding and marketing efforts through creative visual assets."
       ],
-      "period": "Feb 2025 \u2013 Jun 2025",
+      "period": "Feb 2025 – Jun 2025",
       "location": "Tamil Nadu, India",
       "workType": "Remote",
       "icon": "/img_about/runverve.svg"
@@ -32,37 +32,61 @@
       "company": "G-Tech (College Club)",
       "type": "Part Time",
       "description": [
-        "Led creative direction for college cultural fest LYNX 25\u2019 and other event designs.",
+        "Led creative direction for college cultural fest LYNX 25' and other event designs.",
         "Collaborated with event teams to produce posters, banners, and social media content."
       ],
-      "period": "Apr 2025 \u2013 Present",
+      "period": "Apr 2025 – Present",
       "location": "Chennai, India",
       "workType": "On-site",
       "icon": "/img_about/gtech.svg"
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. Computer Science",
+      "institution": "Guru Nanak College",
+      "type": "Undergraduate",
+      "description": "Pursuing undergraduate studies with focus on programming, databases, and web development.",
+      "period": "Jun 2024 – Jun 2027",
+      "location": "Chennai, India",
+      "icon": "/img_about/gnc.svg",
+      "grade": "Pursuing"
     },
     {
-      "role": "B.Sc. Computer Science",
-      "company": "Guru Nanak College",
-      "type": "Student",
-      "description": [
-        "Pursuing undergraduate studies with focus on programming, databases, and web development."
-      ],
-      "period": "Jun 2024 \u2013 Jun 2027",
+      "degree": "Higher Secondary Education",
+      "institution": "Agurchand Manmull Jain School",
+      "type": "12th Grade",
+      "description": "Completed coursework in Computer Science stream with focus on foundational programming and mathematics.",
+      "period": "Jun 2022 – Jun 2024",
       "location": "Chennai, India",
-      "workType": "On-site",
-      "icon": "/img_about/gnc.svg"
+      "icon": "/img_about/amjs.svg",
+      "grade": "Completed"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "UI/UX Design Fundamentals",
+      "issuer": "Google",
+      "description": "Foundations of UX design including user research, wireframing, prototyping, and usability testing.",
+      "date": "2024",
+      "icon": "/img_about/google.svg",
+      "credential": ""
     },
     {
-      "role": "Higher Secondary Education",
-      "company": "Agurchand Manmull Jain School",
-      "type": "Student",
-      "description": [
-        "Completed coursework in Computer Science stream with focus on foundational programming and mathematics."
-      ],
-      "period": "Jun 2022 \u2013 Jun 2024",
-      "location": "Chennai, India",
-      "workType": "On-site",
-      "icon": "/img_about/amjs.svg"
+      "title": "Graphic Design Specialization",
+      "issuer": "Canva",
+      "description": "Mastered visual communication, typography, color theory, and brand identity design.",
+      "date": "2024",
+      "icon": "/img_about/canva.svg",
+      "credential": ""
+    },
+    {
+      "title": "Python Programming",
+      "issuer": "freeCodeCamp",
+      "description": "Completed hands-on Python curriculum covering data structures, algorithms, and scripting.",
+      "date": "2023",
+      "icon": "/img_about/freecodecamp.svg",
+      "credential": ""
     }
   ]
 }
