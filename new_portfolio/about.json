@@ -24,6 +24,14 @@
   ],
   "certifications": [
     {
+      "title": "Graphic Design & Web Design",
+      "issuer": "Runverve",
+      "description": "Internship on Graphic Design & Web Design using Figma and Wix",
+      "date": "Feb 2025 – Jun 2025",
+      "icon": "/certifications/runverve.svg",
+      "credential": "/pdf/runverve.pdf"
+    },
+    {
       "title": "Introduction to User Experience Design",
       "issuer": "Georgia Institute of Technology",
       "description": "Foundations of UX design including user research, wireframing, prototyping, and usability testing.",
